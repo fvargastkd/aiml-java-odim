@@ -3,8 +3,8 @@ package com.odim.aiml.entity;
 /**
  * AimlToken
  *
- * @author anton
- * @since 07/06/17
+ * @author fvargas
+ * @since 04/09/18
  */
 public class AimlToken {
     private String value;

@@ -8,8 +8,8 @@ import com.odim.aiml.core.Named;
 /**
  * Bot
  *
- * @author anton
- * @since 18/04/17
+ * @author fvargas
+ * @since 04/09/18
  */
 public interface Bot extends Named {
     String getRespond(String phrase);

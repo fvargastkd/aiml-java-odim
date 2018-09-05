@@ -7,9 +7,8 @@ import java.util.List;
 
 /**
  * Aiml random tag
- *
- * @author anton
- * @since 21/10/16
+ * @author fvargas
+ * @since 04/09/18
  */
 public class AimlRandom implements AimlElement {
     private final List<String> options;

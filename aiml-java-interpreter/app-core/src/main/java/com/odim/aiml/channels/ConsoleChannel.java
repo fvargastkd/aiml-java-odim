@@ -11,9 +11,8 @@ import static com.odim.aiml.channels.ChannelType.CONSOLE;
 
 /**
  * Console provider
- *
- * @author batiaev
- * @since 18/10/16
+ * @author fvargas
+ * @since 04/09/18
  */
 public class ConsoleChannel implements Provider, Channel {
 

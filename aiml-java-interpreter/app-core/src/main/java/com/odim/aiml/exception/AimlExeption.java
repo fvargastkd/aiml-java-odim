@@ -3,8 +3,8 @@ package com.odim.aiml.exception;
 /**
  * AimlExeption
  *
- * @author anton
- * @since 19/04/17
+ * @author fvargas
+ * @since 04/09/18
  */
 public class AimlExeption extends Exception {
     public AimlExeption(String s) {

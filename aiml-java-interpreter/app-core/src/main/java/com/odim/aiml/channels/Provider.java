@@ -2,9 +2,8 @@ package com.odim.aiml.channels;
 
 /**
  * Communication channel
- *
- * @author batiaev
- * @since 18/10/16
+ * @author fvargas
+ * @since 04/09/18
  */
 public interface Provider {
     String read();

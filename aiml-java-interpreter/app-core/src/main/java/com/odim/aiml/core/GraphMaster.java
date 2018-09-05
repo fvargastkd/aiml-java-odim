@@ -6,8 +6,6 @@ import com.odim.aiml.entity.AimlMap;
 import com.odim.aiml.entity.AimlSet;
 import com.odim.aiml.entity.AimlSubstitution;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
 import java.util.List;
 import java.util.Map;
 
@@ -15,8 +13,8 @@ import java.util.Map;
  * The AIML Pattern matching algorithm and data structure.
  * Brain of bot.
  *
- * @author anton
- * @author Marco
+ * @author fvargas
+ * @since 04/09/18
  *         Predicates are passed to AIMLProcessor
  */
 public class GraphMaster {

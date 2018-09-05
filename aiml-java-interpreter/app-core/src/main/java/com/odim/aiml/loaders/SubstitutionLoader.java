@@ -9,8 +9,8 @@ import java.util.Map;
 /**
  * Substitution loader
  *
- * @author anton
- * @since 19/10/16
+ * @author fvargas
+ * @since 04/09/18
  */
 public class SubstitutionLoader extends MapLoader<AimlSubstitution> {
     @Override

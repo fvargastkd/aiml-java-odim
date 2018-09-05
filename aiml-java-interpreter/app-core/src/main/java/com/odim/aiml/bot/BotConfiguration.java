@@ -12,8 +12,8 @@ import static org.slf4j.LoggerFactory.getLogger;
 /**
  * Bot configuration
  *
- * @author batiaev
- * @since 19/10/16
+ * @author fvargas
+ * @since 04/09/18
  */
 public class BotConfiguration implements BotInfo {
     private static final Logger log = getLogger(BotConfiguration.class);

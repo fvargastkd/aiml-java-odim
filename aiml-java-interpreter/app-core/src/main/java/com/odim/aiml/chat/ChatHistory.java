@@ -6,9 +6,8 @@ import java.util.UUID;
 
 /**
  * ChatHistory
- *
- * @author batiaev
- * @since 18/06/15
+ * @author fvargas
+ * @since 04/09/18
  */
 public class ChatHistory {
     private final UUID chatUid;

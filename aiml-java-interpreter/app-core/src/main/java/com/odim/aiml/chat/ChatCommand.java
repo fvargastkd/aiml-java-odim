@@ -2,9 +2,8 @@ package com.odim.aiml.chat;
 
 /**
  * ChatCommand
- *
- * @author batiaev
- * @since 25/06/15
+ * @author fvargas
+ * @since 04/09/18
  */
 public class ChatCommand {
     public static final String exit = "/exit";

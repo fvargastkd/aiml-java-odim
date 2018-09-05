@@ -19,8 +19,8 @@ import static org.slf4j.LoggerFactory.getLogger;
 /**
  * Aiml loader
  *
- * @author anton
- * @since 21/06/15
+ * @author fvargas
+ * @since 04/09/18
  */
 public class AimlLoader {
     private static final Logger log = getLogger(AimlLoader.class);

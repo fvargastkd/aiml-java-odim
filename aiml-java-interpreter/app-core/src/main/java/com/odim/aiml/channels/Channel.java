@@ -7,9 +7,8 @@ import org.springframework.stereotype.Component;
 
 /**
  * Channel
- *
- * @author anton
- * @since 18/04/17
+ * @author fvargas
+ * @since 04/09/18
  */
 @Component
 public interface Channel {

@@ -15,8 +15,8 @@ import java.util.Random;
 /**
  * Additional utils
  *
- * @author anton
- * @since 21/10/16
+ * @author fvargas
+ * @since 04/09/18
  */
 public class AppUtils {
     private static Random random = new Random();

@@ -28,8 +28,8 @@ import static org.slf4j.LoggerFactory.getLogger;
 
 /**
  * Class representing the AIML bot
- *
  * @author fvargas
+ * @since 04/09/18
  */
 public class BotImpl implements Bot {
     private static final Logger log = getLogger(BotImpl.class);

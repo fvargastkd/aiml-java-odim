@@ -7,8 +7,8 @@ import java.util.Map;
  *
  * @param <S> source type of data
  * @param <R> result type of data
- * @author anton
- * @since 25/10/16
+ * @author fvargas
+ * @since 04/09/18
  */
 public interface Loader<R, S> {
     /**

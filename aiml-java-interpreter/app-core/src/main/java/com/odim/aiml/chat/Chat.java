@@ -6,9 +6,8 @@ import com.odim.aiml.consts.AimlConst;
 
 /**
  * Chat
- *
- * @author batiaev
- * @since 6/18/15
+ * @author fvargas
+ * @since 04/09/18
  */
 public class Chat {
     private final static String DEFAULT_NICKNAME = "Human";

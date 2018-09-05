@@ -8,9 +8,8 @@ import java.util.Set;
 
 /**
  * Implements AIML Sets
- *
- * @author anton
- * @since 19/10/16
+ * @author fvargas
+ * @since 04/09/18
  */
 public class AimlSet extends HashSet<String> implements Named, AimlElement {
     private final String name;

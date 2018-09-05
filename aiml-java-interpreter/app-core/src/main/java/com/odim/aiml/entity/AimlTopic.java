@@ -7,8 +7,8 @@ import java.util.List;
 /**
  * Aiml Topic
  *
- * @author anton
- * @since 21/10/16
+ * @author fvargas
+ * @since 04/09/18
  */
 public class AimlTopic implements AimlElement {
     private List<AimlCategory> categories;

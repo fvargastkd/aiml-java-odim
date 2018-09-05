@@ -2,9 +2,8 @@ package com.odim.aiml.bot;
 
 /**
  * Bot info
- *
- * @author batiaev
- * @since 7/6/15
+ * @author fvargas
+ * @since 04/09/18
  */
 public interface BotInfo {
 

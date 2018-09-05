@@ -30,9 +30,8 @@ import static org.slf4j.LoggerFactory.getLogger;
  * http://itc.ua/articles/kvest_tyuringa_7667/
  * http://www.eblong.com/zarf/markov/chan.c
  *
- * @author anton
- * @author Marco
- * @since 19/10/16
+ * @author fvargas
+ * @since 04/09/18
  */
 public class AIMLProcessor {
     private static final Logger log = getLogger(AIMLProcessor.class);

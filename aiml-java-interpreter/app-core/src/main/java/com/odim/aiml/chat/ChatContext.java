@@ -8,11 +8,8 @@ import java.util.UUID;
 
 /**
  * Chat context
- *
- * @author batiaev
- * @author Marco Piovesan
- *         Added predicates on 29/08/16
- * @since 18/06/15
+ * @author fvargas
+ * @since 04/09/18
  */
 public class ChatContext {
     private UUID chatUid;

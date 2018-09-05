@@ -3,8 +3,8 @@ package com.odim.aiml.entity;
 /**
  * AimlTokenType
  *
- * @author anton
- * @since 07/06/17
+ * @author fvargas
+ * @since 04/09/18
  */
 public enum AimlTokenType {
     TEMPLATE("template"),

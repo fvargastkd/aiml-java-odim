@@ -13,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import javax.annotation.PostConstruct;
 
 /**
- * @author batiaev
+ * @author fvargas
  * @since 30/06/15
  */
 @SpringBootApplication

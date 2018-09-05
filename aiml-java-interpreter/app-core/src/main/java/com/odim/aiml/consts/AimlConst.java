@@ -4,9 +4,8 @@ import java.io.File;
 
 /**
  * Aiml constants
- *
- * @author batiaev
- * @since 6/17/15
+ * @author fvargas
+ * @since 04/09/18
  */
 public class AimlConst {
 

@@ -1,6 +1,5 @@
-package com.batiaev.aiml.chat;
+package com.odim.aiml.chat;
 
-import com.odim.aiml.chat.ChatContext;
 import com.odim.aiml.consts.AimlConst;
 import org.junit.Assert;
 import org.junit.Test;
@@ -8,8 +7,8 @@ import org.junit.Test;
 /**
  * ChatContextTest
  *
- * @author batiaev
- * @since 6/22/15
+ * @author fvargas
+ * @since 04/09/18
  */
 public class ChatContextTest extends Assert {
 

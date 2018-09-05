@@ -3,8 +3,8 @@ package com.odim.aiml.exception;
 /**
  * BotNotInitializedException
  *
- * @author anton
- * @since 19/04/17
+ * @author fvargas
+ * @since 04/09/18
  */
 public class BotNotInitializedException extends AimlExeption {
     public BotNotInitializedException(String s) {

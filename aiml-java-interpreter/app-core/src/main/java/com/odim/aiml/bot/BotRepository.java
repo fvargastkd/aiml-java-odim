@@ -9,9 +9,8 @@ import java.io.File;
 
 /**
  * Bot repository
- *
- * @author batiaev
- * @since 19/10/16
+ * @author fvargas
+ * @since 04/09/18
  */
 @Repository
 public class BotRepository {

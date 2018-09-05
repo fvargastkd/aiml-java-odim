@@ -8,9 +8,8 @@ import java.util.Map;
 
 /**
  * InMemoryChatContextStorage
- *
- * @author batiaev
- * @since 24/05/17
+ * @author fvargas
+ * @since 04/09/18
  */
 @Repository
 public class InMemoryChatContextStorage implements ChatContextStorage {

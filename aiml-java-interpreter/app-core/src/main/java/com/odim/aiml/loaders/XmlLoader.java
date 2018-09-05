@@ -18,8 +18,8 @@ import static org.slf4j.LoggerFactory.getLogger;
 /**
  * Load root element from xml file
  *
- * @author batiaev
- * @since 25/10/16
+ * @author fvargas
+ * @since 04/09/18
  */
 public class XmlLoader implements FileLoader<Element> {
     private static final Logger log = getLogger(XmlLoader.class);

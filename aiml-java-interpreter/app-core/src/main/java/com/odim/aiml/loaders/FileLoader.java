@@ -7,8 +7,8 @@ import java.util.Map;
  * File loader
  *
  * @param <T> type of result data
- * @author anton
- * @since 19/10/16
+ * @author fvargas
+ * @since 04/09/18
  */
 public interface FileLoader<T> extends Loader<T, File> {
     T load(File file);

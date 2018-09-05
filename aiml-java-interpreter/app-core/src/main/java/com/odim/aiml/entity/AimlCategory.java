@@ -9,9 +9,8 @@ import java.util.Objects;
 
 /**
  * Aiml category
- *
- * @author anton
- * @since 21/06/15
+ * @author fvargas
+ * @since 04/09/18
  */
 public class AimlCategory implements AimlElement {
     private String topic = "";

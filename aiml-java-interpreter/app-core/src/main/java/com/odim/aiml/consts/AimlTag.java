@@ -2,9 +2,8 @@ package com.odim.aiml.consts;
 
 /**
  * Aiml tags
- *
- * @author batiaev
- * @since 13/06/15
+ * @author fvargas
+ * @since 04/09/18
  */
 public class AimlTag {
 
