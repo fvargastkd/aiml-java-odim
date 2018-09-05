@@ -1,6 +1,7 @@
 package com.batiaev.aiml.chat;
 
-import com.batiaev.aiml.consts.AimlConst;
+import com.odim.aiml.chat.ChatContext;
+import com.odim.aiml.consts.AimlConst;
 import org.junit.Assert;
 import org.junit.Test;
 

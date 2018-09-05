@@ -4,8 +4,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.batiaev.aiml</groupId>
-    <artifactId>aiml-java-interpreter</artifactId>
+    <groupId>com.odim.aiml</groupId>
+    <artifactId>aiml-java-odim</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -19,9 +19,9 @@
 
     <developers>
         <developer>
-            <name>Anton Batiaev</name>
-            <id>batiaev</id>
-            <email>anton@batiaev.com</email>
+            <name>Fabio Vargas</name>
+            <id>vargas</id>
+            <email>fvargastkd@gmail.com</email>
             <roles>
                 <role>Java Developer</role>
             </roles>
@@ -29,7 +29,7 @@
     </developers>
 
     <scm>
-        <connection>scm:git:ssh://git@github.com:AIMLang/aiml-java-interpreter.git</connection>
+        <connection>scm:git:ssh://git@github.com:AIMLang/aiml-java-odim.git</connection>
         <tag>HEAD</tag>
     </scm>
 

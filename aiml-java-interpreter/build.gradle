@@ -9,7 +9,7 @@ idea {
     }
 }
 
-group = 'com.batiaev.aiml'
+group = 'com.odim.aiml'
 version = '1.0-SNAPSHOT'
 
 ext {
@@ -39,7 +39,7 @@ allprojects {
 configure(project(':app-core')) {
     apply plugin: 'application'
 
-    mainClassName = "com.batiaev.aiml.App"
+    mainClassName = "com.odim.aiml.App"
 
     jar {
         manifest.attributes("Main-Class": mainClassName)
