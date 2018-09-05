@@ -3,6 +3,7 @@ package com.odim.aiml.chat;
 import com.odim.aiml.bot.BotImpl;
 import com.odim.aiml.channels.Provider;
 import com.odim.aiml.consts.AimlConst;
+import com.odim.aiml.utils.Speak;
 
 /**
  * Chat
@@ -16,16 +17,19 @@ public class Chat {
     private String nickname = DEFAULT_NICKNAME;
     private ChatContext state;
     private boolean started;
+    private Speak botSpeak;
 
     public Chat(BotImpl bot, Provider provider) {
         this.bot = bot;
         this.provider = provider;
+        bot.setName("Odim");
     }
 
     public void start() {
         provider.write("Welcome to chat with " + bot.getName() + ".\n");
         started = true;
         state = new ChatContext(nickname);
+        botSpeak = new Speak();
 
         String message;
         while (started) {
@@ -36,6 +40,7 @@ public class Chat {
                 String response = bot.multisentenceRespond(message, state);
                 state.newState(message, response);
                 write(response);
+                botSpeak.speak(response);
             }
         }
     }
