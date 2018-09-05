@@ -26,7 +26,7 @@ public class Chat {
     }
 
     public void start() {
-        provider.write("Welcome to chat with " + bot.getName() + ".\n");
+        provider.write("Bem vindo ao chat com o " + bot.getName() + ".\n");
         started = true;
         state = new ChatContext(nickname);
         botSpeak = new Speak();

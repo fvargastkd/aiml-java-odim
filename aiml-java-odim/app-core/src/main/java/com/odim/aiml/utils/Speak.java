@@ -22,7 +22,7 @@ public class Speak {
 
         try {
 
-            String command = ("espeak -v en -a 90 " + "\"" + message + "\"");
+            String command = ("espeak -v pt -a 90 " + "\"" + message + "\"");
             BufferedWriter saida = new BufferedWriter(new FileWriter("/home/fvargas/tmp/Fala.sh"));
             saida.write(new String(command));
             saida.newLine();
