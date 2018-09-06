@@ -34,7 +34,7 @@ public class BotTest extends Assert {
     @Test
     public void testMultisentenceRespond() throws Exception {
         String request = "Как дела?";
-        List<String> correctResponds = Arrays.asList("отлично", "восхитительно", "замечательно", "прекрасно", "превосходно", "изумительно", "Something is wrong with my brain.");
+        List<String> correctResponds = Arrays.asList("отлично", "восхитительно", "замечательно", "прекрасно", "превосходно", "изумительно", "Desculpe, deve ter algo de errado comigo.");
         String respond = bot.multisentenceRespond(request, new ChatContext("Human")).trim();
         assertTrue("Request = " + request + ", Respond = " + respond, correctResponds.contains(respond));
     }
@@ -43,7 +43,7 @@ public class BotTest extends Assert {
     public void testMultisentenceRespondWithRandom() throws Exception {
         String request = "Привет";
         String respond = bot.multisentenceRespond(request, new ChatContext("Human")).trim();
-        String[] answers = "Здравствуй;Здравствуйте;Мое почтение!;Здарова;Приветствую;Привет;Доброго времени суток;Something is wrong with my brain.".split(";");
+        String[] answers = "Здравствуй;Здравствуйте;Мое почтение!;Здарова;Приветствую;Привет;Доброго времени суток;Desculpe, deve ter algo de errado comigo.".split(";");
         boolean result = false;
         for (String answer : answers) {
             if (respond.equals(answer)) {
@@ -57,7 +57,7 @@ public class BotTest extends Assert {
     public void testMultisentenceRespondWithSrai() throws Exception {
         String request = "Здравствуй";
         String respond = bot.multisentenceRespond(request, new ChatContext("Human")).trim();
-        String[] answers = "Здравствуй;Здравствуйте;Мое почтение!;Здарова;Приветствую;Привет;Доброго времени суток;Something is wrong with my brain.".split(";");
+        String[] answers = "Здравствуй;Здравствуйте;Мое почтение!;Здарова;Приветствую;Привет;Доброго времени суток;Desculpe, deve ter algo de errado comigo.".split(";");
         boolean result = false;
         for (String answer : answers) {
             if (respond.equals(answer)) {

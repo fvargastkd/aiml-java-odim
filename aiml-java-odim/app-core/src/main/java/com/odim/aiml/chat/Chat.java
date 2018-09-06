@@ -11,7 +11,7 @@ import com.odim.aiml.utils.Speak;
  * @since 04/09/18
  */
 public class Chat {
-    private final static String DEFAULT_NICKNAME = "Human";
+    private final static String DEFAULT_NICKNAME = "Você";
     private final BotImpl bot;
     private final Provider provider;
     private String nickname = DEFAULT_NICKNAME;

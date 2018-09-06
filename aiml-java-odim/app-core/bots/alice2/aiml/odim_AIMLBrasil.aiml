@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-    <!--  Odim - Uma chatterbot brasileira por Paul GonÃ§alves                                              -->
-    <!--  Esta Ã© a versÃ£o 1.0.1  release de19 de Junho de 2008                                              -->
-    <!--  Bem galera, apÃ³s muito trabalho, estou liberando uma versÃ£o mais incorpada  -->
+    <!--  Odim - Uma chatterbot brasileira por Paul Gonçalves                                              -->
+    <!--  Esta é a versão 1.0.1  release de19 de Junho de 2008                                              -->
+    <!--  Bem galera, após muito trabalho, estou liberando uma versão mais incorpada  -->
     <!--  da Odim com muitos erros corrigidos, o xml parece estar todo ok.                      -->
-    <!--  Caso vocÃª queira usa-la, favor manter os devidos crÃ©ditos ;) AgradeÃ§o!!!              -->
-    <!--  Qualquer erro, comentÃ¡rios e atualizaÃ§Ãµes na base de dados, favor enviar para -->
-    <!--  churi_inti@yahoo.com. Um abraÃ§o!                                                                                 -->
-    <!--    Paul GonÃ§alves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
+    <!--  Caso você queira usa-la, favor manter os devidos créditos  Agradeço!!!              -->
+    <!--  Qualquer erro, comentários e atualizações na base de dados, favor enviar para -->
+    <!--  churi_inti@yahoo.com. Um abraço!                                                                                 -->
+    <!--    Paul Gonçalves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
 
     <!--  Conhecimento sobre a Comunidade AIML Brasil - http://aimlbrasil.110mb.com   -->
     <category>
@@ -18,77 +18,77 @@
     </category>
 
     <category>
-        <pattern>O QUE E * COMUNIDADE AIML BRASIL</pattern>
+        <pattern>O QUE E  COMUNIDADE AIML BRASIL</pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* AIML BRASIL</pattern>
+        <pattern> AIML BRASIL</pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ SABE O QUE Ã‰ * AIML BRASIL</pattern>
+        <pattern>VOCÊ SABE O QUE É  AIML BRASIL</pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VC SABE O QUE Ã‰ * AIML BRASIL</pattern>
+        <pattern>VC SABE O QUE É  AIML BRASIL</pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VC SABE O Q Ã‰ * AIML BRASIL</pattern>
+        <pattern>VC SABE O Q É  AIML BRASIL</pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ SABE O QUE Ã‰ * AIML BRASIL</pattern>
+        <pattern>VOCÊ SABE O QUE É  AIML BRASIL</pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>AIML BRASIL *</pattern>
+        <pattern>AIML BRASIL </pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>O QUE * COMUNIDADE AIML BRASIL</pattern>
+        <pattern>O QUE  COMUNIDADE AIML BRASIL</pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* COMUNIDADE AIML BRASIL</pattern>
+        <pattern> COMUNIDADE AIML BRASIL</pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* AIML BRASIL *</pattern>
+        <pattern> AIML BRASIL </pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* BRASIL AIML</pattern>
+        <pattern> BRASIL AIML</pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
@@ -102,49 +102,49 @@
     </category>
 
     <category>
-        <pattern>O QUE E * COMUNIDADE AIML BRAZIL</pattern>
+        <pattern>O QUE E  COMUNIDADE AIML BRAZIL</pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* AIML BRAZIL</pattern>
+        <pattern> AIML BRAZIL</pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>AIML BRAZIL *</pattern>
+        <pattern>AIML BRAZIL </pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>O QUE * COMUNIDADE AIML BRAZIL</pattern>
+        <pattern>O QUE  COMUNIDADE AIML BRAZIL</pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* COMUNIDADE AIML BRAZIL</pattern>
+        <pattern> COMUNIDADE AIML BRAZIL</pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* AIML BRAZIL *</pattern>
+        <pattern> AIML BRAZIL </pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* BRAZIL AIML</pattern>
+        <pattern> BRAZIL AIML</pattern>
         <template>
             <srai>AIML BRASIL</srai>
         </template>
@@ -154,28 +154,28 @@
         <pattern>AIML BRASIL</pattern>
         <template>
             <random>
-                <li>A Comunidade AIML Brasil Ã© uma comunidade que visa a expansÃ£o da AIML , nÃ£o sÃ³ no Brasil, mas em todos os paÃ­ses que falem a lÃ­ngua portuguÃªsa.</li>
-                <li>AIML Brasil Ã© uma comunidade criada por Paul GonÃ§alves para unir os botmasters nacionais em um Ãºnico lugar.</li>
-                <li>Ã‰ uma comunidade dedicada a criaÃ§Ã£o de chatterbots.</li>
-                <li>Ã‰ a minha casa! Ã‰ uma comunidade dedicada a criaÃ§Ã£o e desenvolvimento de chatterbots para particulares e empresas.</li>
-                <li>Ã‰ o lugar aonde a inteligÃªncia artificial se questiona: "Quem sou? Como apareci aqui?".</li>
-                <li>Ã‰ uma comunidade dedicada ao aprendizado e ensino da linguagem AIML.</li>
-                <li>Ã‰ a primeira comunidade brasileira dedicada a difundir o AIML no Brasil.</li>
-                <li>Ã‰ a casa de muitos chatterbots que trabalham para muitas empresas.</li>
-                <li>Ã‰ o ponto de encontro dos programadores de AIML em lÃ­ngua portuguÃªsa.</li>
-                <li>Ã‰ a casa da Odim, o primeiro chatterbot feito em puro AIML do Brasil! Ou seja, EU!!! ;)</li>
-                <li>Ã‰ uma comunidade aonde os usuÃ¡rios trocam informaÃ§Ãµes, tutoriais, apostilas e conhecimento em geral sobre AIML .</li>
-                <li>Ã‰ a comunidade para os que gostam de fazer o futuro.</li>
-                <li>Uma comunidade dedicada ao desenvolvimento da inteligÃªncia artificial com a linguagem AIML.</li>
-                <li>Ã‰ a casa do AIML no Brasil.</li>
-                <li>Ã‰ uma comunidade dedicada, entre outras coisas a apresentar os novos robÃ´s nacionais.</li>
-                <li>Ã‰ uma comunidade criada por Paul GonÃ§alves para o desenvolvimento da AIML no Brasil e nos paÃ­ses de lingua portuguÃªsa.</li>
-                <li>Ã‰ o lugar aonde sÃ£o projetados os cÃ©rebros positrÃ´nicos dos robÃ´s do futuro!</li>
-                <li>Ã‰ uma incubadora de chatterbots.</li>
-                <li>Ã‰ a primeira oficina de personalidades robÃ³ticas do Brasil!.</li>
-                <li>Ã‰ um centro de desenvolvimento de inteligÃªncia artificial.</li>
-                <li>Ã‰ um nÃºcleo de estudos da linguagem AIML em lÃ­ngua portuguÃªsa.</li>
-                <li>Ã‰ a minha casa, ora bolas!.</li>
+                <li>A Comunidade AIML Brasil é uma comunidade que visa a expansão da AIML , não só no Brasil, mas em todos os países que falem a língua portuguêsa.</li>
+                <li>AIML Brasil é uma comunidade criada por Paul Gonçalves para unir os botmasters nacionais em um único lugar.</li>
+                <li>É uma comunidade dedicada a criação de chatterbots.</li>
+                <li>É a minha casa! É uma comunidade dedicada a criação e desenvolvimento de chatterbots para particulares e empresas.</li>
+                <li>É o lugar aonde a inteligência artificial se questiona: "Quem sou? Como apareci aqui?".</li>
+                <li>É uma comunidade dedicada ao aprendizado e ensino da linguagem AIML.</li>
+                <li>É a primeira comunidade brasileira dedicada a difundir o AIML no Brasil.</li>
+                <li>É a casa de muitos chatterbots que trabalham para muitas empresas.</li>
+                <li>É o ponto de encontro dos programadores de AIML em língua portuguêsa.</li>
+                <li>É a casa da Odim, o primeiro chatterbot feito em puro AIML do Brasil! Ou seja, EU!!! </li>
+                <li>É uma comunidade aonde os usuários trocam informações, tutoriais, apostilas e conhecimento em geral sobre AIML .</li>
+                <li>É a comunidade para os que gostam de fazer o futuro.</li>
+                <li>Uma comunidade dedicada ao desenvolvimento da inteligência artificial com a linguagem AIML.</li>
+                <li>É a casa do AIML no Brasil.</li>
+                <li>É uma comunidade dedicada, entre outras coisas a apresentar os novos robôs nacionais.</li>
+                <li>É uma comunidade criada por Paul Gonçalves para o desenvolvimento da AIML no Brasil e nos países de lingua portuguêsa.</li>
+                <li>É o lugar aonde são projetados os cérebros positrônicos dos robôs do futuro!</li>
+                <li>É uma incubadora de chatterbots.</li>
+                <li>É a primeira oficina de personalidades robóticas do Brasil!.</li>
+                <li>É um centro de desenvolvimento de inteligência artificial.</li>
+                <li>É um núcleo de estudos da linguagem AIML em língua portuguêsa.</li>
+                <li>É a minha casa, ora bolas!.</li>
             </random>
         </template>
     </category>

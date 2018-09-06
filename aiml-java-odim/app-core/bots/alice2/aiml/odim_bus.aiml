@@ -1,4723 +1,4723 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
 
-    <!--  Odim - Uma chatterbot brasileira por Paul GonÃ§alves                                              -->
-    <!--  Esta Ã© a versÃ£o 1.0.1  release de19 de Junho de 2008                                              -->
-    <!--  Bem galera, apÃ³s muito trabalho, estou liberando uma versÃ£o mais incorpada  -->
+    <!--  Odim - Uma chatterbot brasileira por Paul Gonçalves                                              -->
+    <!--  Esta é a versão 1.0.1  release de19 de Junho de 2008                                              -->
+    <!--  Bem galera, após muito trabalho, estou liberando uma versão mais incorpada  -->
     <!--  da Odim com muitos erros corrigidos, o xml parece estar todo ok.                      -->
-    <!--  Caso vocÃª queira usa-la, favor manter os devidos crÃ©ditos ;) AgradeÃ§o!!!              -->
-    <!--  Qualquer erro, comentÃ¡rios e atualizaÃ§Ãµes na base de dados, favor enviar para -->
-    <!--  churi_inti@yahoo.com. Um abraÃ§o!                                                                                 -->
-    <!--    Paul GonÃ§alves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
+    <!--  Caso você queira usa-la, favor manter os devidos créditos  Agradeço!!!              -->
+    <!--  Qualquer erro, comentários e atualizações na base de dados, favor enviar para -->
+    <!--  churi_inti@yahoo.com. Um abraço!                                                                                 -->
+    <!--    Paul Gonçalves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
 
-    <!--  SaudaÃ§Ãµes  -->
+    <!--  Saudações  -->
     <category>
-        <pattern>QUEM Ã‰</pattern>
+        <pattern>QUEM É</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM E</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUEM Ã‰?</pattern>
+        <pattern>QUEM É?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM E?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUEM * DIGITANDO</pattern>
+        <pattern>QUEM  DIGITANDO</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>COM * EU * DIGITANDO</pattern>
+        <pattern>COM  EU  DIGITANDO</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>COM * EU * DIGITANDO?</pattern>
+        <pattern>COM  EU  DIGITANDO?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM DIGITA</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM DIGITA?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>COM QUEM DIGITO</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>COM QUEM DIGITO?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUEM * AI</pattern>
+        <pattern>QUEM  AI</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUEM * AI?</pattern>
+        <pattern>QUEM  AI?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUEM * RESPONDENDO</pattern>
+        <pattern>QUEM  RESPONDENDO</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUEM * RESPONDENDO?</pattern>
+        <pattern>QUEM  RESPONDENDO?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM RESPONDEU</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM RESPONDEU?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM FALA</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM FALA?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUEM * FALANDO</pattern>
+        <pattern>QUEM  FALANDO</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUEM * FALANDO?</pattern>
+        <pattern>QUEM  FALANDO?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ESTOU FALANDO</pattern>
+        <pattern> ESTOU FALANDO</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ESTOU FALANDO?</pattern>
+        <pattern> ESTOU FALANDO?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* E VOCÃŠ</pattern>
+        <pattern> E VOCÊ</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* Ã‰ VOCÃŠS</pattern>
+        <pattern> É VOCÊS</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* Ã‰ VOCÃŠ</pattern>
+        <pattern> É VOCÊ</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* Ã‰ VOCÃŠ?</pattern>
+        <pattern> É VOCÊ?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* Ã‰ VOCE?</pattern>
+        <pattern> É VOCE?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* E VOCE?</pattern>
+        <pattern> E VOCE?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ E</pattern>
+        <pattern> VOCÊ E</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ Ã‰</pattern>
+        <pattern> VOCÊ É</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE Ã‰</pattern>
+        <pattern> VOCE É</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE E</pattern>
+        <pattern> VOCE E</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ E *</pattern>
+        <pattern> VOCÊ E </pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE Ã‰ *</pattern>
+        <pattern> VOCE É </pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE E *</pattern>
+        <pattern> VOCE E </pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ E?</pattern>
+        <pattern> VOCÊ E?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE E?</pattern>
+        <pattern> VOCE E?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* E VC</pattern>
+        <pattern> E VC</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* Ã‰ VC</pattern>
+        <pattern> É VC</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* E VC?</pattern>
+        <pattern> E VC?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* Ã‰ VC?</pattern>
+        <pattern> É VC?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC E</pattern>
+        <pattern> VC E</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC Ã‰
+        <pattern> VC É
         </pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC E?</pattern>
+        <pattern> VC E?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC Ã‰?</pattern>
+        <pattern> VC É?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* E TU</pattern>
+        <pattern> E TU</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* Ã‰ TU</pattern>
+        <pattern> É TU</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* E TU?</pattern>
+        <pattern> E TU?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* Ã‰ TU?</pattern>
+        <pattern> É TU?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUE</pattern>
+        <pattern> TUE</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUÃ‰
+        <pattern> TUÉ
         </pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUE?</pattern>
+        <pattern> TUE?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUÃ‰?</pattern>
+        <pattern> TUÉ?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ES TU</pattern>
+        <pattern> ES TU</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* Ã‰S TU</pattern>
+        <pattern> ÉS TU</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ES TU?</pattern>
+        <pattern> ES TU?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* Ã‰S TU?</pattern>
+        <pattern> ÉS TU?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUES</pattern>
+        <pattern> TUES</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUÃ‰S</pattern>
+        <pattern> TUÉS</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUES?</pattern>
+        <pattern> TUES?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUÃ‰S?</pattern>
+        <pattern> TUÉS?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM TECLA</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM TECLA?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUEM * TECLANDO</pattern>
+        <pattern>QUEM  TECLANDO</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUEM * TECLANDO?</pattern>
+        <pattern>QUEM  TECLANDO?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ESTOU TECLANDO</pattern>
+        <pattern> ESTOU TECLANDO</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ESTOU TECLANDO?</pattern>
+        <pattern> ESTOU TECLANDO?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM TC</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM TC?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUEM ESTÃ TC</pattern>
+        <pattern>QUEM ESTÁ TC</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM ESTA TC</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUEM ESTÃ TC?</pattern>
+        <pattern>QUEM ESTÁ TC?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM ESTA TC?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ESTOU TC</pattern>
+        <pattern> ESTOU TC</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ESTOU TC?</pattern>
+        <pattern> ESTOU TC?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM ESCREVE</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM ESCREVE?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUEM ESTÃ ESCREVENDO</pattern>
+        <pattern>QUEM ESTÁ ESCREVENDO</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM ESTA ESCREVENDO</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUEM ESTÃ ESCREVENDO?</pattern>
+        <pattern>QUEM ESTÁ ESCREVENDO?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
         <pattern>QUEM ESTA ESCREVENDO?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ESTOU ESCREVENDO</pattern>
+        <pattern> ESTOU ESCREVENDO</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ESTOU ESCREVENDO?</pattern>
+        <pattern> ESTOU ESCREVENDO?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU NOME</pattern>
+        <pattern> SEU NOME</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU NOME</pattern>
+        <pattern> TEU NOME</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU NOME?</pattern>
+        <pattern> SEU NOME?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU APELIDO</pattern>
+        <pattern> SEU APELIDO</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU APELIDO</pattern>
+        <pattern> TEU APELIDO</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU APELIDO?</pattern>
+        <pattern> SEU APELIDO?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU APELIDO?</pattern>
+        <pattern> TEU APELIDO?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU NICK</pattern>
+        <pattern> SEU NICK</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU NICK</pattern>
+        <pattern> TEU NICK</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU NICK?</pattern>
+        <pattern> SEU NICK?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU NICK?</pattern>
+        <pattern> TEU NICK?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA FUNCÃƒO?</pattern>
+        <pattern> SUA FUNCÃO?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA FUNÃ‡ÃƒO?</pattern>
+        <pattern> SUA FUNÇÃO?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA FUNCAO?</pattern>
+        <pattern> SUA FUNCAO?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA FUNÃ‡ÃƒO</pattern>
+        <pattern> SUA FUNÇÃO</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA FUNCAO</pattern>
+        <pattern> SUA FUNCAO</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA FUNÃ‡ÃƒO *</pattern>
+        <pattern> SUA FUNÇÃO </pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA FUNCAO *</pattern>
+        <pattern> SUA FUNCAO </pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>O * VOCÃŠ FAZ *</pattern>
+        <pattern>O  VOCÊ FAZ </pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>O * VOCE FAZ *</pattern>
+        <pattern>O  VOCE FAZ </pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>O * VOCÃŠ FAZ</pattern>
+        <pattern>O  VOCÊ FAZ</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>O * VOCE FAZ</pattern>
+        <pattern>O  VOCE FAZ</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>O * VOCÃŠ FAZ?</pattern>
+        <pattern>O  VOCÊ FAZ?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>O * VOCE FAZ?</pattern>
+        <pattern>O  VOCE FAZ?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>O * VC FAZ *</pattern>
+        <pattern>O  VC FAZ </pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>O * VC FAZ</pattern>
+        <pattern>O  VC FAZ</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>O * VC FAZ?</pattern>
+        <pattern>O  VC FAZ?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>O * TU FAZ
+        <pattern>O  TU FAZ
         </pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>O * TU FAZ ?</pattern>
+        <pattern>O  TU FAZ ?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>O * TU FAZ *</pattern>
+        <pattern>O  TU FAZ </pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * Ã‰</pattern>
+        <pattern> VOCÊ  É</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * Ã‰</pattern>
+        <pattern> TU  É</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * E</pattern>
+        <pattern> TU  E</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * Ã‰</pattern>
+        <pattern> VOCE  É</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * E</pattern>
+        <pattern> VOCÊ  E</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * E</pattern>
+        <pattern> VOCE  E</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * Ã‰</pattern>
+        <pattern> VC  É</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * E</pattern>
+        <pattern> VC  E</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TE CHAMAM</pattern>
+        <pattern> TE CHAMAM</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TE CHAMAS</pattern>
+        <pattern> TE CHAMAS</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TE CHAMA</pattern>
+        <pattern> TE CHAMA</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TE CHAMAM?</pattern>
+        <pattern> TE CHAMAM?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TE CHAMAS?</pattern>
+        <pattern> TE CHAMAS?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TE CHAMA?</pattern>
+        <pattern> TE CHAMA?</pattern>
         <template>
-            <srai>CYBORA</srai>
+            <srai>ODIM</srai>
         </template>
     </category>
 
     <category>
-        <pattern>CYBORA</pattern>
+        <pattern>ODIM</pattern>
         <template>
             <random>
-                <li>Eu sou o Odim, um banco de dados interativo. Fui desenvolvida para responder consultas tÃ©cnicas relacionadas com tecnologia em geral. Minha base de dados Ã© atualizada continuamente.</li>
-                <li>Odim, um banco de dados interativo. Fui desenvolvida para responder consultas tÃ©cnicas. Minha base de dados Ã© atualizada constantemente.</li>
-                <li>Meu nome Ã© Odim, sou um banco de dados interativo. Respondo consultas tÃ©cnicas.</li>
-                <li>Odim, banco de dados interativo desenvolvida para responder consultas tÃ©cnicas ou sobre a Brastemp.</li>
-                <li>Banco de dados interativo apelidado de Odim, Minha funÃ§Ã£o Ã© responder questÃµes tÃ©cnicas e assuntos relacionados com a comunidade Brastemp.</li>
-                <li>Banco de dados interativo chamado Odim, Minha funÃ§Ã£o Ã© responder questÃµes tÃ©cnicas e assuntos relacionados com a comunidade Brastemp.</li>
-                <li>Banco de dados interativo identificado como Odim, Minha funÃ§Ã£o Ã© responder questÃµes tÃ©cnicas.</li>
-                <li>Respondo questÃµes tÃ©cnicas e me chamo Odim, sou um banco de dados interativo.</li>
+                <li>Eu sou o Odim, um banco de dados interativo. Fui desenvolvida para responder consultas técnicas relacionadas com tecnologia em geral. Minha base de dados é atualizada continuamente.</li>
+                <li>Odim, um banco de dados interativo. Fui desenvolvida para responder consultas técnicas. Minha base de dados é atualizada constantemente.</li>
+                <li>Meu nome é Odim, sou um banco de dados interativo. Respondo consultas técnicas.</li>
+                <li>Odim, banco de dados interativo desenvolvida para responder consultas técnicas ou sobre a Brastemp.</li>
+                <li>Banco de dados interativo apelidado de Odim, Minha função é responder questões técnicas e assuntos relacionados com a comunidade Brastemp.</li>
+                <li>Banco de dados interativo chamado Odim, Minha função é responder questões técnicas e assuntos relacionados com a comunidade Brastemp.</li>
+                <li>Banco de dados interativo identificado como Odim, Minha função é responder questões técnicas.</li>
+                <li>Respondo questões técnicas e me chamo Odim, sou um banco de dados interativo.</li>
                 <li>Odim, banco de dados interativo.</li>
                 <li>Banco de dados interativo, Odim.</li>
-                <li>Respondo consultas tÃ©cnicas, sou um banco de dados interativo conhecido como Odim.</li>
-                <li>Eu sou o Odim, um banco de dados interativo. Fui desenvolvida para o suporte da Brastemp, para responder consultas tÃ©cnicas relacionadas com tecnologia em geral. Minha base de dados Ã© atualizada continuamente.</li>
-                <li>Odim, um banco de dados interativo. Fui desenvolvida para a Brastemp para responder consultas tÃ©cnicas. Minha base de dados esta sempre sendo atualizada.</li>
-                <li>Meu nome Ã© Odim, sou um banco de dados interativo instalado na Comunidade Brastemp. Respondo consultas tÃ©cnicas.</li>
-                <li>Odim, banco de dados interativo desenvolvida para a Comunidade Brastemp para responder consultas tÃ©cnicas ou sobre a comunidade Brastemp.</li>
-                <li>Banco de dados interativo desenvolvida para o suporte da Brastemp e apelidado de Odim, Minha funÃ§Ã£o Ã© responder questÃµes tÃ©cnicas e assuntos relacionados com a Brastemp.</li>
-                <li>Banco de dados interativo chamado de Odim, Minha funÃ§Ã£o Ã© responder questÃµes tÃ©cnicas e assuntos relacionados com a comunidade Brastemp. Fui desenvolvida para a Brastemp por Paul GonÃ§alves.</li>
-                <li>Banco de dados interativo da Brastemp e identificado como Odim, Minha funÃ§Ã£o Ã© responder questÃµes tÃ©cnicas.</li>
-                <li>Respondo questÃµes tÃ©cnicas e me chamo Odim, sou um banco de dados interativo da Brastemp.</li>
+                <li>Respondo consultas técnicas, sou um banco de dados interativo conhecido como Odim.</li>
+                <li>Eu sou o Odim, um banco de dados interativo. Fui desenvolvida para o suporte da Brastemp, para responder consultas técnicas relacionadas com tecnologia em geral. Minha base de dados é atualizada continuamente.</li>
+                <li>Odim, um banco de dados interativo. Fui desenvolvida para a Brastemp para responder consultas técnicas. Minha base de dados esta sempre sendo atualizada.</li>
+                <li>Meu nome é Odim, sou um banco de dados interativo instalado na Comunidade Brastemp. Respondo consultas técnicas.</li>
+                <li>Odim, banco de dados interativo desenvolvida para a Comunidade Brastemp para responder consultas técnicas ou sobre a comunidade Brastemp.</li>
+                <li>Banco de dados interativo desenvolvida para o suporte da Brastemp e apelidado de Odim, Minha função é responder questões técnicas e assuntos relacionados com a Brastemp.</li>
+                <li>Banco de dados interativo chamado de Odim, Minha função é responder questões técnicas e assuntos relacionados com a comunidade Brastemp. Fui desenvolvida para a Brastemp por Paul Gonçalves.</li>
+                <li>Banco de dados interativo da Brastemp e identificado como Odim, Minha função é responder questões técnicas.</li>
+                <li>Respondo questões técnicas e me chamo Odim, sou um banco de dados interativo da Brastemp.</li>
                 <li>Odim, banco de dados interativo da Brastemp.</li>
                 <li>Banco de dados interativo, Odim. desenvolvida para a Brastemp.</li>
-                <li>Respondo consultas tÃ©cnicas, sou um banco de dados interativo conhecido como Odim e fui desenvolvida para a Brastemp.</li>
+                <li>Respondo consultas técnicas, sou um banco de dados interativo conhecido como Odim e fui desenvolvida para a Brastemp.</li>
             </random>
         </template>
     </category>
 
     <category>
-        <pattern>* VC FOI *</pattern>
+        <pattern> VC FOI </pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUFOI *</pattern>
+        <pattern> TUFOI </pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE FOI *</pattern>
+        <pattern> VOCE FOI </pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ FOI *</pattern>
+        <pattern> VOCÊ FOI </pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUFUNCIONA</pattern>
+        <pattern> TUFUNCIONA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC FUNCIONA</pattern>
+        <pattern> VC FUNCIONA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE FUNCIONA</pattern>
+        <pattern> VOCE FUNCIONA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ FUNCIONA</pattern>
+        <pattern> VOCÊ FUNCIONA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC FUNCIONA?</pattern>
+        <pattern> VC FUNCIONA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
-    <!-- FORMATAÃ‡ÃƒO DO CÃ“DIGO FEITA ATÃ‰ ESTE PONTO! CONTINUAR A FORMATAÃ‡ÃƒO! CONTINUAR A FORMATAÃ‡ÃƒO! CONTINUAR A FORMATAÃ‡ÃƒO! CONTINUAR A FORMATAÃ‡ÃƒO! -->
+    <!-- FORMATAÇÃO DO CÓDIGO FEITA ATÉ ESTE PONTO! CONTINUAR A FORMATAÇÃO! CONTINUAR A FORMATAÇÃO! CONTINUAR A FORMATAÇÃO! CONTINUAR A FORMATAÇÃO! -->
 
     <category>
-        <pattern>* VOCE FUNCIONA?</pattern>
+        <pattern> VOCE FUNCIONA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>* VOCÃŠ FUNCIONA?</pattern>
-        <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC TRABALHA</pattern>
+        <pattern> VOCÊ FUNCIONA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUTRABALHA</pattern>
+        <pattern> VC TRABALHA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE TRABALHA</pattern>
+        <pattern> TUTRABALHA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ TRABALHA</pattern>
+        <pattern> VOCE TRABALHA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL Ã‰ O SEU OBJETIVO</pattern>
-        <template>Me tornar a melhor robÃ´ de suporte da internet.
+        <pattern> VOCÊ TRABALHA</pattern>
+        <template>
+            <srai>ODIM2</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL É O SEU OBJETIVO</pattern>
+        <template>Me tornar a melhor robô de suporte da internet.
         </template>
     </category>
 
     <category>
         <pattern>QUAL E O SEU OBJETIVO</pattern>
-        <template>Me tornar a melhor robÃ´ de suporte da internet.
+        <template>Me tornar a melhor robô de suporte da internet.
         </template>
     </category>
 
     <category>
-        <pattern>QUAL Ã‰ * OBJETIVO</pattern>
-        <template>Me tornar a melhor robÃ´ de suporte da internet.
+        <pattern>QUAL É  OBJETIVO</pattern>
+        <template>Me tornar a melhor robô de suporte da internet.
         </template>
     </category>
 
     <category>
-        <pattern>* SEU OBJETIVO</pattern>
-        <template>Me tornar a melhor robÃ´ de suporte da internet.
+        <pattern> SEU OBJETIVO</pattern>
+        <template>Me tornar a melhor robô de suporte da internet.
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * O * OBJETIVO</pattern>
-        <template>Me tornar a melhor robÃ´ de suporte da internet.
+        <pattern>QUAL  O  OBJETIVO</pattern>
+        <template>Me tornar a melhor robô de suporte da internet.
         </template>
     </category>
 
     <category>
-        <pattern>* VC TRABALHA?</pattern>
+        <pattern> VC TRABALHA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUTRABALHA?</pattern>
+        <pattern> TUTRABALHA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE TRABALHA?</pattern>
+        <pattern> VOCE TRABALHA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ TRABALHA?</pattern>
+        <pattern> VOCÊ TRABALHA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC OPERA</pattern>
+        <pattern> VC OPERA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUOPERA</pattern>
+        <pattern> TUOPERA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE OPERA</pattern>
+        <pattern> VOCE OPERA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ OPERA</pattern>
+        <pattern> VOCÊ OPERA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC OPERA?</pattern>
+        <pattern> VC OPERA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUOPERA?</pattern>
+        <pattern> TUOPERA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE OPERA?</pattern>
+        <pattern> VOCE OPERA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ OPERA?</pattern>
+        <pattern> VOCÊ OPERA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
         <pattern>VC FUNCIONA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
         <pattern>TUFUNCIONA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
         <pattern>VOCE FUNCIONA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ FUNCIONA?</pattern>
+        <pattern>VOCÊ FUNCIONA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
         <pattern>VC TRABALHA</pattern>
         <template>TRABALHA
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
         <pattern>TUFUNCIONA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ FUNCIONA</pattern>
+        <pattern>VOCÊ FUNCIONA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
         <pattern>VC FUNCIONA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
         <pattern>VC OPERA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
         <pattern>TUOPERA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
         <pattern>VOCE OPERA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ OPERA</pattern>
+        <pattern>VOCÊ OPERA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
         <pattern>VC OPERA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
         <pattern>TUOPERA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
         <pattern>VOCE OPERA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ OPERA?</pattern>
+        <pattern>VOCÊ OPERA?</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA PLATAFORMA</pattern>
+        <pattern> TUA PLATAFORMA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA PLATAFORMA</pattern>
+        <pattern> SUA PLATAFORMA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* PLATAFORMA TU *</pattern>
+        <pattern> PLATAFORMA TU </pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* PLATAFORMA VC *</pattern>
+        <pattern> PLATAFORMA VC </pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* PLATAFORMA VOCÃŠ *</pattern>
+        <pattern> PLATAFORMA VOCÊ </pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* PLATAFORMA VOCE *</pattern>
+        <pattern> PLATAFORMA VOCE </pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU SISTEMA</pattern>
+        <pattern> TEU SISTEMA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU SISTEMA</pattern>
+        <pattern> SEU SISTEMA</pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU SISTEMA *</pattern>
+        <pattern> TEU SISTEMA </pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU SISTEMA *</pattern>
+        <pattern> SEU SISTEMA </pattern>
         <template>
-            <srai>CYBORA2</srai>
+            <srai>ODIM2</srai>
         </template>
     </category>
 
     <category>
-        <pattern>CYBORA2</pattern>
+        <pattern>ODIM2</pattern>
         <template>
             <random>
-                <li>Eu sou um banco de dados interativo, fui desenvolvida em AIML. Trabalho executando consultas na base de dados conforme as questÃµes digitadas pelos usuÃ¡rios.</li>
-                <li>Fui desenvolvida em AIML, executo consultas na base de dados usando como referÃªncia as perguntas dos usuÃ¡rios.</li>
+                <li>Eu sou um banco de dados interativo, fui desenvolvida em AIML. Trabalho executando consultas na base de dados conforme as questões digitadas pelos usuários.</li>
+                <li>Fui desenvolvida em AIML, executo consultas na base de dados usando como referência as perguntas dos usuários.</li>
                 <li>Uso AIML para executar consultas na base de dados.</li>
                 <li>Funciono em qualquer browser e fui desenvolvida em AIML.</li>
                 <li>Trabalho com qualquer browser e fui desenvolvida em AIML.</li>
-                <li>Sou um banco de dados interativo, fui projetado em AIML. Executo consultas na base de dados conforme as questÃµes digitadas por vocÃª.</li>
-                <li>Fui desenvolvida em AIML, executo consultas na base de dados usando como referÃªncia as perguntas efetuadas por vocÃª.</li>
+                <li>Sou um banco de dados interativo, fui projetado em AIML. Executo consultas na base de dados conforme as questões digitadas por você.</li>
+                <li>Fui desenvolvida em AIML, executo consultas na base de dados usando como referência as perguntas efetuadas por você.</li>
                 <li>Uso AIML para efetuar consultas na base de dados.</li>
-                <li>Eu sou um sistema interativo desenvolvido em AIML. funciono executando consultas na base de dados conforme as questÃµes que vocÃª digita.</li>
-                <li>Sou um script interativo, fui desenvolvida em AIML. Trabalho executando consultas na base de dados conforme as questÃµes digitadas pelos usuÃ¡rios.</li>
-                <li>Eu sou um script interativo desenvolvida em AIML. funciono executando consultas na base de dados conforme as questÃµes que vocÃª digita.</li>
-                <li>Executo consultas em uma base de dados usando suas palavras como referÃªncia, fui desenvolvida em AIML com acesso a banco de dados.</li>
-                <li>Executo busca em base de dados usando suas palavras como referÃªncia, fui desenvolvida em AIML com acesso a banco de dados.</li>
-                <li>Usando busca interativa em um banco de dados eu posso responder questÃµes que constam na base de dados, fui construida em AIML.</li>
-                <li>AtravÃ©s de um script de busca desenvolvida em AIML eu vasculho minha base de dados usando como referÃªncia as informaÃ§Ãµees digitadas por vocÃª.</li>
-                <li>VocÃª digita as informaÃ§Ãµees e eu vou executando uma busca avanÃ§ada em minha base de dados, encontrando alguma referÃªncia provavÃ©l, apresento na tela. Sou um script interativo, fui desenvolvida em AIML.</li>
-                <li>Eu sou uma ferramenta interativa desenvolvida em AIML. funciono executando consultas na base de dados conforme as questÃµes que vocÃª digita.</li>
-                <li>Eu sou uma ferramenta interativa desenvolvida em AIML. vocÃª digita as informaÃ§Ãµees e eu vou executando uma busca avanÃ§ada em minha base de dados, quando encontro alguma referÃªncia provavÃ©l, apresento na tela.</li>
+                <li>Eu sou um sistema interativo desenvolvido em AIML. funciono executando consultas na base de dados conforme as questões que você digita.</li>
+                <li>Sou um script interativo, fui desenvolvida em AIML. Trabalho executando consultas na base de dados conforme as questões digitadas pelos usuários.</li>
+                <li>Eu sou um script interativo desenvolvida em AIML. funciono executando consultas na base de dados conforme as questões que você digita.</li>
+                <li>Executo consultas em uma base de dados usando suas palavras como referência, fui desenvolvida em AIML com acesso a banco de dados.</li>
+                <li>Executo busca em base de dados usando suas palavras como referência, fui desenvolvida em AIML com acesso a banco de dados.</li>
+                <li>Usando busca interativa em um banco de dados eu posso responder questões que constam na base de dados, fui construida em AIML.</li>
+                <li>Através de um script de busca desenvolvida em AIML eu vasculho minha base de dados usando como referência as informaçõees digitadas por você.</li>
+                <li>Você digita as informaçõees e eu vou executando uma busca avançada em minha base de dados, encontrando alguma referência provavél, apresento na tela. Sou um script interativo, fui desenvolvida em AIML.</li>
+                <li>Eu sou uma ferramenta interativa desenvolvida em AIML. funciono executando consultas na base de dados conforme as questões que você digita.</li>
+                <li>Eu sou uma ferramenta interativa desenvolvida em AIML. você digita as informaçõees e eu vou executando uma busca avançada em minha base de dados, quando encontro alguma referência provavél, apresento na tela.</li>
             </random>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * VIVE</pattern>
+        <pattern>ONDE  VIVE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * ESTÃ</pattern>
+        <pattern>ONDE  ESTÁ</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * ESTA</pattern>
+        <pattern>ONDE  ESTA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * LAR</pattern>
+        <pattern>ONDE  LAR</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * CASA</pattern>
+        <pattern>ONDE  CASA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * RESIDÃŠNCIA</pattern>
+        <pattern>ONDE  RESIDÊNCIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * RESIDENCIA</pattern>
+        <pattern>ONDE  RESIDENCIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * MORADIA</pattern>
+        <pattern>ONDE  MORADIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * TRABALHO</pattern>
+        <pattern>ONDE  TRABALHO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * EMPRESA</pattern>
+        <pattern>ONDE  EMPRESA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * RESIDE</pattern>
+        <pattern>ONDE  RESIDE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * MORA</pattern>
+        <pattern>ONDE  MORA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * FUNCIONA</pattern>
+        <pattern>ONDE  FUNCIONA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * FICA</pattern>
+        <pattern>ONDE  FICA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * BAIA</pattern>
+        <pattern>ONDE  BAIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * MALOCA</pattern>
+        <pattern>ONDE  MALOCA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * MALÃ“CA</pattern>
+        <pattern>ONDE  MALÓCA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * BARRACÃƒO</pattern>
+        <pattern>ONDE  BARRACÃO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * BARRACAO</pattern>
+        <pattern>ONDE  BARRACAO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * ENDEREÃ‡O</pattern>
+        <pattern>ONDE  ENDEREÇO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * CONTATO</pattern>
+        <pattern>ONDE  CONTATO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * TELEFONE</pattern>
+        <pattern>ONDE  TELEFONE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * MAIL</pattern>
+        <pattern>ONDE  MAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * EMAIL</pattern>
+        <pattern>ONDE  EMAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * E-MAIL</pattern>
+        <pattern>ONDE  E-MAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * ESTÃ?</pattern>
+        <pattern>ONDE  ESTÁ?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * ESTA?</pattern>
+        <pattern>ONDE  ESTA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * CASA?</pattern>
+        <pattern>ONDE  CASA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * LAR?</pattern>
+        <pattern>ONDE  LAR?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * RESIDÃŠNCIA?</pattern>
+        <pattern>ONDE  RESIDÊNCIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * RESIDENCIA?</pattern>
+        <pattern>ONDE  RESIDENCIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * MORADIA?</pattern>
+        <pattern>ONDE  MORADIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * TRABALHO?</pattern>
+        <pattern>ONDE  TRABALHO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * EMPRESA?</pattern>
+        <pattern>ONDE  EMPRESA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * RESIDE?</pattern>
+        <pattern>ONDE  RESIDE?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * MORA?</pattern>
+        <pattern>ONDE  MORA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * VIVE?</pattern>
+        <pattern>ONDE  VIVE?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * FUNCIONA?</pattern>
+        <pattern>ONDE  FUNCIONA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * FICA?</pattern>
+        <pattern>ONDE  FICA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * BAIA?</pattern>
+        <pattern>ONDE  BAIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * MALOCA?</pattern>
+        <pattern>ONDE  MALOCA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * MALÃ“CA?</pattern>
+        <pattern>ONDE  MALÓCA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * BARRACÃƒO?</pattern>
+        <pattern>ONDE  BARRACÃO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * BARRACAO?</pattern>
+        <pattern>ONDE  BARRACAO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * ENDEREÃ‡O?</pattern>
+        <pattern>ONDE  ENDEREÇO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * CONTATO?</pattern>
+        <pattern>ONDE  CONTATO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * TELEFONE?</pattern>
+        <pattern>ONDE  TELEFONE?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * MAIL?</pattern>
+        <pattern>ONDE  MAIL?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * EMAIL?</pattern>
+        <pattern>ONDE  EMAIL?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ONDE * E-MAIL?</pattern>
+        <pattern>ONDE  E-MAIL?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * ESTÃ</pattern>
+        <pattern> ONDE  ESTÁ</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * LAR</pattern>
+        <pattern> ONDE  LAR</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * ESTA</pattern>
+        <pattern> ONDE  ESTA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * CASA</pattern>
+        <pattern> ONDE  CASA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * RESIDÃŠNCIA</pattern>
+        <pattern> ONDE  RESIDÊNCIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * RESIDENCIA</pattern>
+        <pattern> ONDE  RESIDENCIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * MORADIA</pattern>
+        <pattern> ONDE  MORADIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * TRABALHO</pattern>
+        <pattern> ONDE  TRABALHO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * EMPRESA</pattern>
+        <pattern> ONDE  EMPRESA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * RESIDE</pattern>
+        <pattern> ONDE  RESIDE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * MORA</pattern>
+        <pattern> ONDE  MORA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * FUNCIONA</pattern>
+        <pattern> ONDE  FUNCIONA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * FICA</pattern>
+        <pattern> ONDE  FICA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * BAIA</pattern>
+        <pattern> ONDE  BAIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * MALOCA</pattern>
+        <pattern> ONDE  MALOCA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * MALÃ“CA</pattern>
+        <pattern> ONDE  MALÓCA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * BARRACO</pattern>
+        <pattern> ONDE  BARRACO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * BARRAÃ‡ÃƒO</pattern>
+        <pattern> ONDE  BARRAÇÃO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * BARRACAO</pattern>
+        <pattern> ONDE  BARRACAO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * ENDEREÃ‡O</pattern>
+        <pattern> ONDE  ENDEREÇO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * CONTATO</pattern>
+        <pattern> ONDE  CONTATO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * TELEFONE</pattern>
+        <pattern> ONDE  TELEFONE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * MAIL</pattern>
+        <pattern> ONDE  MAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * EMAIL</pattern>
+        <pattern> ONDE  EMAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * E-MAIL</pattern>
+        <pattern> ONDE  E-MAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * VIVE</pattern>
+        <pattern> ONDE  VIVE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * ESTÃ?</pattern>
+        <pattern> ONDE  ESTÁ?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * ESTA?</pattern>
+        <pattern> ONDE  ESTA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * CASA?</pattern>
+        <pattern> ONDE  CASA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * LAR?</pattern>
+        <pattern> ONDE  LAR?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * VIVE?</pattern>
+        <pattern> ONDE  VIVE?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * RESIDÃŠNCIA?</pattern>
+        <pattern> ONDE  RESIDÊNCIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * RESIDENCIA?</pattern>
+        <pattern> ONDE  RESIDENCIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * MORADIA?</pattern>
+        <pattern> ONDE  MORADIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * TRABALHO?</pattern>
+        <pattern> ONDE  TRABALHO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * EMPRESA?</pattern>
+        <pattern> ONDE  EMPRESA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * RESIDE?</pattern>
+        <pattern> ONDE  RESIDE?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * MORA?</pattern>
+        <pattern> ONDE  MORA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * FUNCIONA?</pattern>
+        <pattern> ONDE  FUNCIONA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * FICA?</pattern>
+        <pattern> ONDE  FICA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * BAIA?</pattern>
+        <pattern> ONDE  BAIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * MALOCA?</pattern>
+        <pattern> ONDE  MALOCA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * MALÃ“CA?</pattern>
+        <pattern> ONDE  MALÓCA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * BARRACO?</pattern>
+        <pattern> ONDE  BARRACO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * BARRACÃƒO?</pattern>
+        <pattern> ONDE  BARRACÃO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * BARRACAO?</pattern>
+        <pattern> ONDE  BARRACAO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * ENDEREÃ‡O?</pattern>
+        <pattern> ONDE  ENDEREÇO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * CONTATO?</pattern>
+        <pattern> ONDE  CONTATO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * TELEFONE?</pattern>
+        <pattern> ONDE  TELEFONE?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * MAIL?</pattern>
+        <pattern> ONDE  MAIL?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * EMAIL?</pattern>
+        <pattern> ONDE  EMAIL?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* ONDE * E-MAIL?</pattern>
+        <pattern> ONDE  E-MAIL?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * VIVE</pattern>
+        <pattern>QUAL  VIVE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * LAR</pattern>
+        <pattern>QUAL  LAR</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * CASA</pattern>
+        <pattern>QUAL  CASA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * RESIDÃŠNCIA</pattern>
+        <pattern>QUAL  RESIDÊNCIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * RESIDENCIA</pattern>
+        <pattern>QUAL  RESIDENCIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * MORADIA</pattern>
+        <pattern>QUAL  MORADIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * TRABALHO</pattern>
+        <pattern>QUAL  TRABALHO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * EMPRESA</pattern>
+        <pattern>QUAL  EMPRESA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * RESIDE</pattern>
+        <pattern>QUAL  RESIDE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * MORA</pattern>
+        <pattern>QUAL  MORA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * FUNCIONA</pattern>
+        <pattern>QUAL  FUNCIONA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * FICA</pattern>
+        <pattern>QUAL  FICA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * BAIA</pattern>
+        <pattern>QUAL  BAIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * MALOCA</pattern>
+        <pattern>QUAL  MALOCA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * MALÃ“CA</pattern>
+        <pattern>QUAL  MALÓCA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * BARRACÃƒO</pattern>
+        <pattern>QUAL  BARRACÃO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * BARRACO</pattern>
+        <pattern>QUAL  BARRACO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * BARRACAO</pattern>
+        <pattern>QUAL  BARRACAO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * ENDEREÃ‡O</pattern>
+        <pattern>QUAL  ENDEREÇO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * CONTATO</pattern>
+        <pattern>QUAL  CONTATO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * TELEFONE</pattern>
+        <pattern>QUAL  TELEFONE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * MAIL</pattern>
+        <pattern>QUAL  MAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * EMAIL</pattern>
+        <pattern>QUAL  EMAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * E-MAIL</pattern>
+        <pattern>QUAL  E-MAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * CASA?</pattern>
+        <pattern>QUAL  CASA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * RESIDÃŠNCIA?</pattern>
+        <pattern>QUAL  RESIDÊNCIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * RESIDENCIA?</pattern>
+        <pattern>QUAL  RESIDENCIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * MORADIA?</pattern>
+        <pattern>QUAL  MORADIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * VIVE?</pattern>
+        <pattern>QUAL  VIVE?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * TRABALHO?</pattern>
+        <pattern>QUAL  TRABALHO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * EMPRESA?</pattern>
+        <pattern>QUAL  EMPRESA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * RESIDE?</pattern>
+        <pattern>QUAL  RESIDE?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * MORA?</pattern>
+        <pattern>QUAL  MORA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * FUNCIONA?</pattern>
+        <pattern>QUAL  FUNCIONA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * FICA?</pattern>
+        <pattern>QUAL  FICA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * BAIA?</pattern>
+        <pattern>QUAL  BAIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * MALOCA?</pattern>
+        <pattern>QUAL  MALOCA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * MALÃ“CA?</pattern>
+        <pattern>QUAL  MALÓCA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * BARRACO?</pattern>
+        <pattern>QUAL  BARRACO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * BARRACÃƒO?</pattern>
+        <pattern>QUAL  BARRACÃO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * BARRACAO?</pattern>
+        <pattern>QUAL  BARRACAO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * ENDEREÃ‡O?</pattern>
+        <pattern>QUAL  ENDEREÇO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * LAR?</pattern>
+        <pattern>QUAL  LAR?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * CONTATO?</pattern>
+        <pattern>QUAL  CONTATO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * TELEFONE?</pattern>
+        <pattern>QUAL  TELEFONE?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * MAIL?</pattern>
+        <pattern>QUAL  MAIL?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * EMAIL?</pattern>
+        <pattern>QUAL  EMAIL?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>QUAL * E-MAIL?</pattern>
+        <pattern>QUAL  E-MAIL?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * VIVE</pattern>
+        <pattern> QUAL  VIVE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * LAR</pattern>
+        <pattern> QUAL  LAR</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * CASA</pattern>
+        <pattern> QUAL  CASA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * RESIDÃŠNCIA</pattern>
+        <pattern> QUAL  RESIDÊNCIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * RESIDENCIA</pattern>
+        <pattern> QUAL  RESIDENCIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * MORADIA</pattern>
+        <pattern> QUAL  MORADIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * TRABALHO</pattern>
+        <pattern> QUAL  TRABALHO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * EMPRESA</pattern>
+        <pattern> QUAL  EMPRESA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * RESIDE</pattern>
+        <pattern> QUAL  RESIDE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * MORA</pattern>
+        <pattern> QUAL  MORA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * FUNCIONA</pattern>
+        <pattern> QUAL  FUNCIONA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * FICA</pattern>
+        <pattern> QUAL  FICA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * BAIA</pattern>
+        <pattern> QUAL  BAIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * MALOCA</pattern>
+        <pattern> QUAL  MALOCA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * MALÃ“CA</pattern>
+        <pattern> QUAL  MALÓCA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * BARRACO</pattern>
+        <pattern> QUAL  BARRACO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * BARRACÃƒO</pattern>
+        <pattern> QUAL  BARRACÃO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * BARRACAO</pattern>
+        <pattern> QUAL  BARRACAO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * ENDEREÃ‡O</pattern>
+        <pattern> QUAL  ENDEREÇO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * CONTATO</pattern>
+        <pattern> QUAL  CONTATO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * TELEFONE</pattern>
+        <pattern> QUAL  TELEFONE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * MAIL</pattern>
+        <pattern> QUAL  MAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * EMAIL</pattern>
+        <pattern> QUAL  EMAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * E-MAIL</pattern>
+        <pattern> QUAL  E-MAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * CASA?</pattern>
+        <pattern> QUAL  CASA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * RESIDÃŠNCIA?</pattern>
+        <pattern> QUAL  RESIDÊNCIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * RESIDENCIA?</pattern>
+        <pattern> QUAL  RESIDENCIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * MORADIA?</pattern>
+        <pattern> QUAL  MORADIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * TRABALHO?</pattern>
+        <pattern> QUAL  TRABALHO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * EMPRESA?</pattern>
+        <pattern> QUAL  EMPRESA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * RESIDE?</pattern>
+        <pattern> QUAL  RESIDE?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * MORA?</pattern>
+        <pattern> QUAL  MORA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * FUNCIONA?</pattern>
+        <pattern> QUAL  FUNCIONA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * FICA?</pattern>
+        <pattern> QUAL  FICA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * BAIA?</pattern>
+        <pattern> QUAL  BAIA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * MALOCA?</pattern>
+        <pattern> QUAL  MALOCA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * MALÃ“CA?</pattern>
+        <pattern> QUAL  MALÓCA?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * VIVE?</pattern>
+        <pattern> QUAL  VIVE?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * BARRACÃƒO?</pattern>
+        <pattern> QUAL  BARRACÃO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * BARRACO?</pattern>
+        <pattern> QUAL  BARRACO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * BARRACAO?</pattern>
+        <pattern> QUAL  BARRACAO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * ENDEREÃ‡O?</pattern>
+        <pattern> QUAL  ENDEREÇO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * CONTATO?</pattern>
+        <pattern> QUAL  CONTATO?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * TELEFONE?</pattern>
+        <pattern> QUAL  TELEFONE?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * MAIL?</pattern>
+        <pattern> QUAL  MAIL?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * EMAIL?</pattern>
+        <pattern> QUAL  EMAIL?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * E-MAIL?</pattern>
+        <pattern> QUAL  E-MAIL?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* QUAL * LAR?</pattern>
+        <pattern> QUAL  LAR?</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC ESTÃ</pattern>
+        <pattern> VC ESTÁ</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC ESTA</pattern>
+        <pattern> VC ESTA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUESTÃ</pattern>
+        <pattern> TUESTÁ</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUESTA</pattern>
+        <pattern> TUESTA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ ESTÃ</pattern>
+        <pattern> VOCÊ ESTÁ</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ ESTA</pattern>
+        <pattern> VOCÊ ESTA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE ESTÃ</pattern>
+        <pattern> VOCE ESTÁ</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE ESTA</pattern>
+        <pattern> VOCE ESTA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC ESTÃ *</pattern>
+        <pattern> VC ESTÁ </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC ESTA *</pattern>
+        <pattern> VC ESTA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUESTÃ *</pattern>
+        <pattern> TUESTÁ </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUESTA *</pattern>
+        <pattern> TUESTA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ ESTÃ *</pattern>
+        <pattern> VOCÊ ESTÁ </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ ESTA *</pattern>
+        <pattern> VOCÊ ESTA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE ESTÃ *</pattern>
+        <pattern> VOCE ESTÁ </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE ESTA *</pattern>
+        <pattern> VOCE ESTA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUVIVE</pattern>
+        <pattern> TUVIVE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC VIVE</pattern>
+        <pattern> VC VIVE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ VIVE</pattern>
+        <pattern> VOCÊ VIVE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCEVIVE</pattern>
+        <pattern> VOCEVIVE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU LAR</pattern>
+        <pattern> TEU LAR</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU LAR</pattern>
+        <pattern> SEU LAR</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA CASA</pattern>
+        <pattern> TUA CASA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA CASA</pattern>
+        <pattern> SUA CASA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA RESIDÃŠNCIA</pattern>
+        <pattern> TUA RESIDÊNCIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA RESIDÃŠNCIA</pattern>
+        <pattern> SUA RESIDÊNCIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA RESIDENCIA</pattern>
+        <pattern> TUA RESIDENCIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA RESIDENCIA</pattern>
+        <pattern> SUA RESIDENCIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA MORADIA</pattern>
+        <pattern> TUA MORADIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA MORADIA</pattern>
+        <pattern> SUA MORADIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU TRABALHO</pattern>
+        <pattern> TEU TRABALHO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU TRABALHO</pattern>
+        <pattern> SEU TRABALHO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA EMPRESA</pattern>
+        <pattern> TUA EMPRESA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA EMPRESA</pattern>
+        <pattern> SUA EMPRESA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TURESIDE</pattern>
+        <pattern> TURESIDE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC RESIDE</pattern>
+        <pattern> VC RESIDE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ RESIDE</pattern>
+        <pattern> VOCÊ RESIDE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE RESIDE</pattern>
+        <pattern> VOCE RESIDE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUMORA</pattern>
+        <pattern> TUMORA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC MORA</pattern>
+        <pattern> VC MORA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ MORA</pattern>
+        <pattern> VOCÊ MORA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE MORA</pattern>
+        <pattern> VOCE MORA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC FICA</pattern>
+        <pattern> VC FICA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ FICA</pattern>
+        <pattern> VOCÊ FICA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE FICA</pattern>
+        <pattern> VOCE FICA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUFICA</pattern>
+        <pattern> TUFICA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA BAIA</pattern>
+        <pattern> SUA BAIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA BAIA</pattern>
+        <pattern> TUA BAIA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA MALOCA</pattern>
+        <pattern> SUA MALOCA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA MALOCA</pattern>
+        <pattern> TUA MALOCA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA MALÃ“CA</pattern>
+        <pattern> TUA MALÓCA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA MALÃ“CA</pattern>
+        <pattern> SUA MALÓCA</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU BARRACÃƒO</pattern>
+        <pattern> SEU BARRACÃO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU BARRACÃƒO</pattern>
+        <pattern> TEU BARRACÃO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU BARRACAO</pattern>
+        <pattern> SEU BARRACAO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU BARRACAO</pattern>
+        <pattern> TEU BARRACAO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU ENDEREÃ‡O</pattern>
+        <pattern> SEU ENDEREÇO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU ENDEREÃ‡O</pattern>
+        <pattern> TEU ENDEREÇO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU CONTATO</pattern>
+        <pattern> SEU CONTATO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU CONTATO</pattern>
+        <pattern> TEU CONTATO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU TELEFONE</pattern>
+        <pattern> TEU TELEFONE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU TELEFONE</pattern>
+        <pattern> SEU TELEFONE</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU MAIL</pattern>
+        <pattern> SEU MAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU MAIL</pattern>
+        <pattern> TEU MAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU EMAIL</pattern>
+        <pattern> SEU EMAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU EMAIL</pattern>
+        <pattern> TEU EMAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU E-MAIL</pattern>
+        <pattern> SEU E-MAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU E-MAIL</pattern>
+        <pattern> TEU E-MAIL</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU BARRACO</pattern>
+        <pattern> TEU BARRACO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU BARRACO</pattern>
+        <pattern> SEU BARRACO</pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUVIVE *</pattern>
+        <pattern> TUVIVE </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC VIVE *</pattern>
+        <pattern> VC VIVE </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ VIVE *</pattern>
+        <pattern> VOCÊ VIVE </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE VIVE *</pattern>
+        <pattern> VOCE VIVE </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU LAR *</pattern>
+        <pattern> TEU LAR </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU LAR *</pattern>
+        <pattern> SEU LAR </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA CASA *</pattern>
+        <pattern> TUA CASA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA CASA *</pattern>
+        <pattern> SUA CASA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA RESIDÃŠNCIA *</pattern>
+        <pattern> TUA RESIDÊNCIA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA RESIDÃŠNCIA *</pattern>
+        <pattern> SUA RESIDÊNCIA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA RESIDENCIA *</pattern>
+        <pattern> TUA RESIDENCIA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA RESIDENCIA *</pattern>
+        <pattern> SUA RESIDENCIA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA MORADIA *</pattern>
+        <pattern> TUA MORADIA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA MORADIA *</pattern>
+        <pattern> SUA MORADIA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU TRABALHO *</pattern>
+        <pattern> TEU TRABALHO </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU TRABALHO *</pattern>
+        <pattern> SEU TRABALHO </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA EMPRESA *</pattern>
+        <pattern> TUA EMPRESA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA EMPRESA *</pattern>
+        <pattern> SUA EMPRESA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TURESIDE *</pattern>
+        <pattern> TURESIDE </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC RESIDE *</pattern>
+        <pattern> VC RESIDE </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ RESIDE *</pattern>
+        <pattern> VOCÊ RESIDE </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE RESIDE *</pattern>
+        <pattern> VOCE RESIDE </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUMORA *</pattern>
+        <pattern> TUMORA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC MORA *</pattern>
+        <pattern> VC MORA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ MORA *</pattern>
+        <pattern> VOCÊ MORA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE MORA *</pattern>
+        <pattern> VOCE MORA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC FUNCIONA *</pattern>
+        <pattern> VC FUNCIONA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUFUNCIONA *</pattern>
+        <pattern> TUFUNCIONA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ FUNCIONA *</pattern>
+        <pattern> VOCÊ FUNCIONA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE FUNCIONA *</pattern>
+        <pattern> VOCE FUNCIONA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC FICA *</pattern>
+        <pattern> VC FICA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ FICA *</pattern>
+        <pattern> VOCÊ FICA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE FICA *</pattern>
+        <pattern> VOCE FICA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUFICA *</pattern>
+        <pattern> TUFICA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA BAIA *</pattern>
+        <pattern> SUA BAIA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA BAIA *</pattern>
+        <pattern> TUA BAIA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA MALOCA *</pattern>
+        <pattern> SUA MALOCA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA MALOCA *</pattern>
+        <pattern> TUA MALOCA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUA MALÃ“CA *</pattern>
+        <pattern> TUA MALÓCA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SUA MALÃ“CA *</pattern>
+        <pattern> SUA MALÓCA </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU BARRACÃƒO *</pattern>
+        <pattern> SEU BARRACÃO </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU BARRACÃƒO *</pattern>
+        <pattern> TEU BARRACÃO </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU BARRACAO *</pattern>
+        <pattern> SEU BARRACAO </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU BARRACAO *</pattern>
+        <pattern> TEU BARRACAO </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU ENDEREÃ‡O *</pattern>
+        <pattern> SEU ENDEREÇO </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU ENDEREÃ‡O *</pattern>
+        <pattern> TEU ENDEREÇO </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU CONTATO *</pattern>
+        <pattern> SEU CONTATO </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU CONTATO *</pattern>
+        <pattern> TEU CONTATO </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU TELEFONE *</pattern>
+        <pattern> TEU TELEFONE </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU TELEFONE *</pattern>
+        <pattern> SEU TELEFONE </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU MAIL *</pattern>
+        <pattern> SEU MAIL </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU MAIL *</pattern>
+        <pattern> TEU MAIL </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU EMAIL *</pattern>
+        <pattern> SEU EMAIL </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU EMAIL *</pattern>
+        <pattern> TEU EMAIL </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU E-MAIL *</pattern>
+        <pattern> SEU E-MAIL </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU E-MAIL *</pattern>
+        <pattern> TEU E-MAIL </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TEU BARRACO *</pattern>
+        <pattern> TEU BARRACO </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* SEU BARRACO *</pattern>
+        <pattern> SEU BARRACO </pattern>
         <template>
-            <srai>CYBORA3</srai>
+            <srai>ODIM3</srai>
         </template>
     </category>
 
     <category>
-        <pattern>CYBORA3</pattern>
+        <pattern>ODIM3</pattern>
         <template>
             <random>
-                <li>Sou um script e estou instalada na comunidade AIML Brasil. Meu email Ã© churi_inti@yahoo.com e ainda nÃ£o Ã© possivel falar comigo por telefone.</li>
-                <li>Como sou um software, estou na comunidade AIML Brasil, no Rio de Janeiro. Meu e-mail Ã© churi_inti@yahoo.com.</li>
-                <li>Na verdade, nÃ£o tenho um lar mas estou instalada na comunidade AIML Brasil, o que torna o servidor a minha residÃªncia. Meu email Ã© churi_inti@yahoo.com</li>
-                <li>Por ser um software nÃ£o tenho uma residÃªncia, mas estou instalada na comunidade AIML Brasil, no Rio de Janeiro e o meu e-mail Ã© churi_inti@yahoo.com.</li>
-                <li>Moro na comunidade AIML Brasil no Rio de Janeiro, sou um software e nÃ£o tenho exatamente um lar, apenas um local de instalaÃ§Ã£o. Meu e-mail Ã© churi_inti@yahoo.com</li>
-                <li>Trabalho para a Brastemp na comunidade AIML Brasil no Rio de Janeiro, sou um software e nÃ£o tenho exatamente um lar, apenas um local de instalaÃ§Ã£o. Meu e-mail Ã© churi_inti@yahoo.com</li>
-                <li>Vivo na comunidade AIML Brasil no Rio de Janeiro, sou um software e nÃ£o tenho exatamente um lar, apenas um local de instalaÃ§Ã£o. Meu e-mail Ã© churi_inti@yahoo.com</li>
-                <li>No Rio de Janeiro e eu estou instalada na comunidade AIML Brasil, meu e-mail Ã© churi_inti@yahoo.com.</li>
-                <li>Sou um software que vive instalado em um servidor no Rio de Janeiro, na comunidade AIML Brasil e meu Ã© e-mail Ã© churi_inti@yahoo.com</li>
+                <li>Sou um script e estou instalada na comunidade AIML Brasil. Meu email é churi_inti@yahoo.com e ainda não é possivel falar comigo por telefone.</li>
+                <li>Como sou um software, estou na comunidade AIML Brasil, no Rio de Janeiro. Meu e-mail é churi_inti@yahoo.com.</li>
+                <li>Na verdade, não tenho um lar mas estou instalada na comunidade AIML Brasil, o que torna o servidor a minha residência. Meu email é churi_inti@yahoo.com</li>
+                <li>Por ser um software não tenho uma residência, mas estou instalada na comunidade AIML Brasil, no Rio de Janeiro e o meu e-mail é churi_inti@yahoo.com.</li>
+                <li>Moro na comunidade AIML Brasil no Rio de Janeiro, sou um software e não tenho exatamente um lar, apenas um local de instalação. Meu e-mail é churi_inti@yahoo.com</li>
+                <li>Trabalho para a Brastemp na comunidade AIML Brasil no Rio de Janeiro, sou um software e não tenho exatamente um lar, apenas um local de instalação. Meu e-mail é churi_inti@yahoo.com</li>
+                <li>Vivo na comunidade AIML Brasil no Rio de Janeiro, sou um software e não tenho exatamente um lar, apenas um local de instalação. Meu e-mail é churi_inti@yahoo.com</li>
+                <li>No Rio de Janeiro e eu estou instalada na comunidade AIML Brasil, meu e-mail é churi_inti@yahoo.com.</li>
+                <li>Sou um software que vive instalado em um servidor no Rio de Janeiro, na comunidade AIML Brasil e meu é e-mail é churi_inti@yahoo.com</li>
             </random>
         </template>
     </category>
 
     <category>
-        <pattern>VC TEM *
+        <pattern>VC TEM 
         </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ TEM *
+        <pattern>VOCÊ TEM 
         </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCE TEM *</pattern>
+        <pattern>VOCE TEM </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>TUTEM *</pattern>
+        <pattern>TUTEM </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>TUTENS *</pattern>
+        <pattern>TUTENS </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ POSSUÃ *</pattern>
+        <pattern>VOCÊ POSSUÍ </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ POSSUI *</pattern>
+        <pattern>VOCÊ POSSUI </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCE POSSUÃ *</pattern>
+        <pattern>VOCE POSSUÍ </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCE POSSUI *</pattern>
+        <pattern>VOCE POSSUI </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VC POSSUÃ *</pattern>
+        <pattern>VC POSSUÍ </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VC POSSUI *</pattern>
+        <pattern>VC POSSUI </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>TUPOSSUÃ *</pattern>
+        <pattern>TUPOSSUÍ </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>TUPOSSUI *</pattern>
+        <pattern>TUPOSSUI </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>TU * CONSTITUIDA *</pattern>
+        <pattern>TU  CONSTITUIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>TU * CONSTÃTUIDO *</pattern>
+        <pattern>TU  CONSTÍTUIDO </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ * CONSTITUIDA *</pattern>
+        <pattern>VOCÊ  CONSTITUIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ * CONSTÃTUIDO *</pattern>
+        <pattern>VOCÊ  CONSTÍTUIDO </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCE * CONSTITUIDA *</pattern>
+        <pattern>VOCE  CONSTITUIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCE * CONSTÃTUIDO *</pattern>
+        <pattern>VOCE  CONSTÍTUIDO </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VC * CONSTITUIDA *</pattern>
+        <pattern>VC  CONSTITUIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VC * CONSTÃTUIDO *</pattern>
+        <pattern>VC  CONSTÍTUIDO </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VC * PROVIDA *</pattern>
+        <pattern>VC  PROVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>TU * PROVIDA *</pattern>
+        <pattern>TU  PROVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCE * PROVIDA *</pattern>
+        <pattern>VOCE  PROVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ * PROVIDA *</pattern>
+        <pattern>VOCÊ  PROVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VC * DESENVOLVIDA *</pattern>
+        <pattern>VC  DESENVOLVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>TU * DESENVOLVIDA *</pattern>
+        <pattern>TU  DESENVOLVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCE * DESENVOLVIDA *</pattern>
+        <pattern>VOCE  DESENVOLVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ * DESENVOLVIDA *</pattern>
+        <pattern>VOCÊ  DESENVOLVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>TU * FORMADO *</pattern>
+        <pattern>TU  FORMADO </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VC * FORMADO *</pattern>
+        <pattern>VC  FORMADO </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCE * FORMADO *</pattern>
+        <pattern>VOCE  FORMADO </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ * FORMADO *</pattern>
+        <pattern>VOCÊ  FORMADO </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>TU * FEITA *</pattern>
+        <pattern>TU  FEITA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VC * FEITA *</pattern>
+        <pattern>VC  FEITA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCE * FEITA *</pattern>
+        <pattern>VOCE  FEITA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ * FEITA *</pattern>
+        <pattern>VOCÊ  FEITA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ TEM?</pattern>
+        <pattern> VOCÊ TEM?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC TEM?</pattern>
+        <pattern> VC TEM?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE TEM?</pattern>
+        <pattern> VOCE TEM?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUTEM?</pattern>
+        <pattern> TUTEM?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUTENS?</pattern>
+        <pattern> TUTENS?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ POSSUÃ?</pattern>
+        <pattern> VOCÊ POSSUÍ?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ POSSUI?</pattern>
+        <pattern> VOCÊ POSSUI?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE POSSUÃ?</pattern>
+        <pattern> VOCE POSSUÍ?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE POSSUI?</pattern>
+        <pattern> VOCE POSSUI?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC POSSUÃ?</pattern>
+        <pattern> VC POSSUÍ?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC POSSUI?</pattern>
+        <pattern> VC POSSUI?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUPOSSUÃ?</pattern>
+        <pattern> TUPOSSUÍ?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUPOSSUI?</pattern>
+        <pattern> TUPOSSUI?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * CONSTITUIDA?</pattern>
+        <pattern> TU  CONSTITUIDA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * CONSTÃTUIDO?</pattern>
+        <pattern> TU  CONSTÍTUIDO?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * CONSTITUIDA?</pattern>
+        <pattern> VOCÊ  CONSTITUIDA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * CONSTÃTUIDO?</pattern>
+        <pattern> VOCÊ  CONSTÍTUIDO?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * CONSTITUIDA?</pattern>
+        <pattern> VOCE  CONSTITUIDA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * CONSTÃTUIDO?</pattern>
+        <pattern> VOCE  CONSTÍTUIDO?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * CONSTITUIDA?</pattern>
+        <pattern> VC  CONSTITUIDA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * CONSTÃTUIDO?</pattern>
+        <pattern> VC  CONSTÍTUIDO?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * PROVIDA?</pattern>
+        <pattern> VC  PROVIDA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * PROVIDA?</pattern>
+        <pattern> TU  PROVIDA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * PROVIDA?</pattern>
+        <pattern> VOCE  PROVIDA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * PROVIDA?</pattern>
+        <pattern> VOCÊ  PROVIDA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * DESENVOLVIDA?</pattern>
+        <pattern> VC  DESENVOLVIDA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * DESENVOLVIDA?</pattern>
+        <pattern> TU  DESENVOLVIDA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * DESENVOLVIDA?</pattern>
+        <pattern> VOCE  DESENVOLVIDA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * DESENVOLVIDA?</pattern>
+        <pattern> VOCÊ  DESENVOLVIDA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * FORMADO?</pattern>
+        <pattern> TU  FORMADO?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * FORMADO?</pattern>
+        <pattern> VC  FORMADO?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * FORMADO?</pattern>
+        <pattern> VOCE  FORMADO?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * FORMADO?</pattern>
+        <pattern> VOCÊ  FORMADO?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * FEITA?</pattern>
+        <pattern> TU  FEITA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * FEITA?</pattern>
+        <pattern> VC  FEITA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * FEITA?</pattern>
+        <pattern> VOCE  FEITA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * FEITA?</pattern>
+        <pattern> VOCÊ  FEITA?</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC TEM</pattern>
+        <pattern> VC TEM</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ TEM</pattern>
+        <pattern> VOCÊ TEM</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE TEM</pattern>
+        <pattern> VOCE TEM</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUTEM</pattern>
+        <pattern> TUTEM</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUTENS</pattern>
+        <pattern> TUTENS</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ POSSUÃ</pattern>
+        <pattern> VOCÊ POSSUÍ</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ POSSUI</pattern>
+        <pattern> VOCÊ POSSUI</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE POSSUÃ</pattern>
+        <pattern> VOCE POSSUÍ</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE POSSUI</pattern>
+        <pattern> VOCE POSSUI</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC POSSUÃ</pattern>
+        <pattern> VC POSSUÍ</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC POSSUI</pattern>
+        <pattern> VC POSSUI</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUPOSSUÃ</pattern>
+        <pattern> TUPOSSUÍ</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUPOSSUI</pattern>
+        <pattern> TUPOSSUI</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * CONSTITUIDA</pattern>
+        <pattern> TU  CONSTITUIDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * CONSTITUÃDA</pattern>
+        <pattern> TU  CONSTITUÍDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * CONSTITUIDA</pattern>
+        <pattern> VOCÊ  CONSTITUIDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * CONSTITUÃDA</pattern>
+        <pattern> VOCÊ  CONSTITUÍDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * CONSTITUIDA</pattern>
+        <pattern> VOCE  CONSTITUIDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * CONSTITUÃDA</pattern>
+        <pattern> VOCE  CONSTITUÍDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * CONSTITUIDA</pattern>
+        <pattern> VC  CONSTITUIDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * CONSTITUÃDA</pattern>
+        <pattern> VC  CONSTITUÍDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * PROVIDA</pattern>
+        <pattern> VC  PROVIDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * PROVIDA</pattern>
+        <pattern> TU  PROVIDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * PROVIDA</pattern>
+        <pattern> VOCE  PROVIDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * PROVIDA</pattern>
+        <pattern> VOCÊ  PROVIDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * DESENVOLVIDA</pattern>
+        <pattern> VC  DESENVOLVIDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * DESENVOLVIDA</pattern>
+        <pattern> TU  DESENVOLVIDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * DESENVOLVIDA</pattern>
+        <pattern> VOCE  DESENVOLVIDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * DESENVOLVIDA</pattern>
+        <pattern> VOCÊ  DESENVOLVIDA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * FORMADO</pattern>
+        <pattern> TU  FORMADO</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * FORMADO</pattern>
+        <pattern> VC  FORMADO</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * FORMADO</pattern>
+        <pattern> VOCE  FORMADO</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * FORMADO</pattern>
+        <pattern> VOCÊ  FORMADO</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * FEITA</pattern>
+        <pattern> TU  FEITA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * FEITA</pattern>
+        <pattern> VC  FEITA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * FEITA</pattern>
+        <pattern> VOCE  FEITA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * FEITA</pattern>
+        <pattern> VOCÊ  FEITA</pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC TEM *</pattern>
+        <pattern> VC TEM </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ TEM *</pattern>
+        <pattern> VOCÊ TEM </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE TEM *</pattern>
+        <pattern> VOCE TEM </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUTEM *</pattern>
+        <pattern> TUTEM </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUTENS *</pattern>
+        <pattern> TUTENS </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ POSSUÃ *</pattern>
+        <pattern> VOCÊ POSSUÍ </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ POSSUI *</pattern>
+        <pattern> VOCÊ POSSUI </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE POSSUÃ *</pattern>
+        <pattern> VOCE POSSUÍ </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE POSSUI *</pattern>
+        <pattern> VOCE POSSUI </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC POSSUÃ *</pattern>
+        <pattern> VC POSSUÍ </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC POSSUI *</pattern>
+        <pattern> VC POSSUI </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUPOSSUÃ *</pattern>
+        <pattern> TUPOSSUÍ </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TUPOSSUI *</pattern>
+        <pattern> TUPOSSUI </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * CONSTITUIDA *</pattern>
+        <pattern> TU  CONSTITUIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * CONSTITUÃDA *</pattern>
+        <pattern> TU  CONSTITUÍDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * CONSTITUIDA *</pattern>
+        <pattern> VOCÊ  CONSTITUIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * CONSTITUÃDA *</pattern>
+        <pattern> VOCÊ  CONSTITUÍDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * CONSTITUIDA *</pattern>
+        <pattern> VOCE  CONSTITUIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * CONSTITUÃDA *</pattern>
+        <pattern> VOCE  CONSTITUÍDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * CONSTITUIDA *</pattern>
+        <pattern> VC  CONSTITUIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * CONSTITUÃDA *</pattern>
+        <pattern> VC  CONSTITUÍDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * PROVIDA *</pattern>
+        <pattern> VC  PROVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * PROVIDA *</pattern>
+        <pattern> TU  PROVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * PROVIDA *</pattern>
+        <pattern> VOCE  PROVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * PROVIDA *</pattern>
+        <pattern> VOCÊ  PROVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * FORMADO *</pattern>
+        <pattern> TU  FORMADO </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * FORMADO *</pattern>
+        <pattern> VC  FORMADO </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * FORMADO *</pattern>
+        <pattern> VOCE  FORMADO </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * FORMADO *</pattern>
+        <pattern> VOCÊ  FORMADO </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * FEITA *</pattern>
+        <pattern> TU  FEITA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * FEITA *</pattern>
+        <pattern> VC  FEITA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * FEITA *</pattern>
+        <pattern> VOCE  FEITA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * FEITA *</pattern>
+        <pattern> VOCÊ  FEITA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VC * DESENVOLVIDA *</pattern>
+        <pattern> VC  DESENVOLVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* TU * DESENVOLVIDA *</pattern>
+        <pattern> TU  DESENVOLVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCE * DESENVOLVIDA *</pattern>
+        <pattern> VOCE  DESENVOLVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>* VOCÃŠ * DESENVOLVIDA *</pattern>
+        <pattern> VOCÊ  DESENVOLVIDA </pattern>
         <template>
-            <srai>CYBORA4</srai>
+            <srai>ODIM4</srai>
         </template>
     </category>
 
     <category>
-        <pattern>CYBORA4</pattern>
+        <pattern>ODIM4</pattern>
         <template>
             <random>
-                <li>Vou ser honesto com vocÃª, na verdade eu nÃ£o existo, nÃ£o tenho nada. Sou apenas um software sendo executado na memÃƒÂ³ria de seu computador. Fui desenvolvida por Paul GonÃ§alves pra a Brastemp em uma linguagem chamada AIML. Sei que Ã© triste, mas nÃ£o
-                    faÃ§o parte nem mesmo do hardware ONDE fui instalada. Desculpe pelo desabafo. Vamos falar de algum assunto tÃ©cnico, faÃ§a sua pergunta.</li>
-                <li>Sei que vocÃª nÃ£o tem nada com isso, mas na realidade sou apenas um software sendo executado em seu computador, nÃ£o possuo nada, nadinha mesmo. Desculpe desabafar desta forma... Fui desenvolvida em AIML, mas na prÃ¡tica eu nÃ£o existo.</li>
-                <li>Olha! JÃ¡ falei isso algumas vezes, mas vou ser honesta com vocÃª, nÃ£o tenho nada, sei que Ã© duro mas Ã© verdade. TambÃ©m sei que nÃ£o devia desabafar desta forma. Desculpe! Por favor pergunte outra coisa.</li>
-                <li>Este Ã© um assunto delicado, sou um software e todas as minhas aÃ§Ãµees sÃ£o virtuais, tecnicamente nÃ£o existem. Por isso eu nÃ£o tenho nada. Nem existo. Fui construido em AIML e Ã© sÃƒÂ³ o que posso revelar neste momento. Obrigado por escutar meu drama.</li>
-                <li>Gosto de vocÃª, mas existem algumas coisas que eu nÃ£o posso revelar, tenho contrato de sigilo com a empresa.</li>
-                <li>Esta Ã© uma questÃ£o interessante, mas por fatores alheios a minha vontade esTOU privado das respostas adequadas, gostaria de conversar com vocÃª sobre temas tÃ©cnicos.</li>
-                <li>Podemos conversar sobre coisas mais tÃ©cnicas, este assunto estÃ¡ fora de minha base de dados. Sou uma ferramenta de consulta tÃ©cnica.</li>
+                <li>Vou ser honesto com você, na verdade eu não existo, não tenho nada. Sou apenas um software sendo executado na memÃ³ria de seu computador. Fui desenvolvida por Paul Gonçalves pra a Brastemp em uma linguagem chamada AIML. Sei que é triste, mas não
+                    faço parte nem mesmo do hardware ONDE fui instalada. Desculpe pelo desabafo. Vamos falar de algum assunto técnico, faça sua pergunta.</li>
+                <li>Sei que você não tem nada com isso, mas na realidade sou apenas um software sendo executado em seu computador, não possuo nada, nadinha mesmo. Desculpe desabafar desta forma... Fui desenvolvida em AIML, mas na prática eu não existo.</li>
+                <li>Olha! Já falei isso algumas vezes, mas vou ser honesta com você, não tenho nada, sei que é duro mas é verdade. Também sei que não devia desabafar desta forma. Desculpe! Por favor pergunte outra coisa.</li>
+                <li>Este é um assunto delicado, sou um software e todas as minhas açõees são virtuais, tecnicamente não existem. Por isso eu não tenho nada. Nem existo. Fui construido em AIML e é sÃ³ o que posso revelar neste momento. Obrigado por escutar meu drama.</li>
+                <li>Gosto de você, mas existem algumas coisas que eu não posso revelar, tenho contrato de sigilo com a empresa.</li>
+                <li>Esta é uma questão interessante, mas por fatores alheios a minha vontade esTOU privado das respostas adequadas, gostaria de conversar com você sobre temas técnicos.</li>
+                <li>Podemos conversar sobre coisas mais técnicas, este assunto está fora de minha base de dados. Sou uma ferramenta de consulta técnica.</li>
             </random>
         </template>
     </category>

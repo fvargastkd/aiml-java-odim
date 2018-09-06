@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-    <!--  Odim - Uma chatterbot brasileira por Paul GonÃ§alves                                              -->
-    <!--  Esta Ã© a versÃ£o 1.0.1  release de19 de Junho de 2008                                              -->
-    <!--  Bem galera, apÃ³s muito trabalho, estou liberando uma versÃ£o mais incorpada  -->
+    <!--  Odim - Uma chatterbot brasileira por Paul Gonçalves                                              -->
+    <!--  Esta é a versão 1.0.1  release de19 de Junho de 2008                                              -->
+    <!--  Bem galera, após muito trabalho, estou liberando uma versão mais incorpada  -->
     <!--  da Odim com muitos erros corrigidos, o xml parece estar todo ok.                      -->
-    <!--  Caso vocÃª queira usa-la, favor manter os devidos crÃ©ditos ;) AgradeÃ§o!!!              -->
-    <!--  Qualquer erro, comentÃ¡rios e atualizaÃ§Ãµes na base de dados, favor enviar para -->
-    <!--  churi_inti@yahoo.com. Um abraÃ§o!                                                                                 -->
-    <!--    Paul GonÃ§alves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
+    <!--  Caso você queira usa-la, favor manter os devidos créditos  Agradeço!!!              -->
+    <!--  Qualquer erro, comentários e atualizações na base de dados, favor enviar para -->
+    <!--  churi_inti@yahoo.com. Um abraço!                                                                                 -->
+    <!--    Paul Gonçalves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
 
     <category>
         <pattern>HEHE</pattern>
@@ -139,13 +139,13 @@
         <pattern>RISO</pattern>
         <template>
             <random>
-                <li>VocÃª Ã© bem alegre, nÃ©? TÃ¡ rindo a toa!
+                <li>Você é bem alegre, né? Tá rindo a toa!
                 </li>
-                <li>Ã‰ bom estar feliz.</li>
-                <li>VocÃª Ã© divertido, sabe? Mas eu nÃ£o tenho muito senso de humor.</li>
-                <li>NÃ£o entendi a piada :(</li>
-                <li>KKKKKK!VocÃª parece alegre hoje!</li>
-                <li>Achou engraÃ§ado? Que bom!</li>
+                <li>É bom estar feliz.</li>
+                <li>Você é divertido, sabe? Mas eu não tenho muito senso de humor.</li>
+                <li>Não entendi a piada :(</li>
+                <li>KKKKKK!Você parece alegre hoje!</li>
+                <li>Achou engraçado? Que bom!</li>
             </random>
         </template>
     </category>

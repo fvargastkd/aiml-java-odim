@@ -308,13 +308,13 @@
 		<substitute find=" com ele " replace=" com ela "/>
 		<substitute find=" com ela " replace=" com ele "/>
 	</gender>
-<!-- person repõe palavras com a 1 pessoa pela 3 pessoa  e vice-versa -->
+<!-- person rep\F5e palavras com a 1 pessoa pela 3 pessoa  e vice-versa -->
 	<person>
 		<substitute find=" Eu estava " replace=" ele estava "/>
 		<substitute find=" ele estava " replace=" Eu estava "/>
 		<substitute find=" ela estava " replace=" Eu estava "/>
 		<substitute find=" Eu estou " replace=" ele esta "/>
-		<substitute find=" Eu sou " replace=" ele é "/>
+		<substitute find=" Eu sou " replace=" ele \E9 "/>
 		<substitute find=" Eu " replace=" ele "/>
 		<substitute find=" mim " replace=" ele "/>
 		<substitute find=" meu " replace=" seu "/>
@@ -333,10 +333,10 @@
 		<substitute find=" myself " replace=" him or herself "/>
 		<substitute find=" mine " replace=" his or hers "/>
 	</person>
-<!--person2 repõe palavras com a 1 pessoa pela 2 pessoa  e vice-versa -->
+<!--person2 repasse palavras com a 1 pessoa pela 2 pessoa  e vice-versa -->
 	<person2>
-		<substitute find=" eu " replace=" você "/>
-		<substitute find=" você " replace=" eu "/>
+		<substitute find=" eu " replace=" voce "/>
+		<substitute find=" voce " replace=" eu "/>
 		<substitute find=" sei " replace=" sabe "/>
 		<substitute find=" sabe " replace=" sei "/>
 	

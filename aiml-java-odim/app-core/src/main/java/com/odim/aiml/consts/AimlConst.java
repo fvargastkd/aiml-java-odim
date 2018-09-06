@@ -13,8 +13,8 @@ public class AimlConst {
     
     private static String root_path = System.getProperty("user.dir") + File.separator + "bots";
     public static final String default_bot_name = "alice2";
-    public static final String error_bot_response = "Something is wrong with my brain.";
-    public static final String default_bot_response = "I have no answer for that.";
+    public static final String error_bot_response = "Desculpe, deve ter algo de errado comigo.";
+    public static final String default_bot_response = "Eu não tenho uma resposta para isso.";
     public static final String default_topic = "unknown";
     public static final String default_that = "unknown";
     public static final String null_input = "#NORESP";

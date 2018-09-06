@@ -26,7 +26,7 @@
         <substitute find="=" replace=" "/>
         <substitute find="," replace=" "/>
         <substitute find="  " replace=" "/>
-        <substitute find=" vc " replace=" vocÃª "/>
+        <substitute find=" vc " replace=" você "/>
         <substitute find=" o k " replace=" ok "/>
         <substitute find=" q " replace=" que "/>
         <substitute find=" ohh" replace=" oh"/>
@@ -305,8 +305,8 @@
         <substitute find=" pra ele " replace=" pra ela "/>
         <substitute find=" pra ela " replace=" pra ele "/>
         <substitute find=" with her " replace=" with him "/>
-        <substitute find=" eu " replace=" vocÃª "/>
-        <substitute find=" vocÃª " replace=" eu "/>
+        <substitute find=" eu " replace=" você "/>
+        <substitute find=" você " replace=" eu "/>
         <substitute find=" his " replace=" her "/>
         <substitute find=" her " replace=" his "/>
         <substitute find=" him " replace=" her "/>

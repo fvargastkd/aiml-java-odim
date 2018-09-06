@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-    <!--  Odim - Uma chatterbot brasileira por Paul GonÃ§alves                                              -->
-    <!--  Esta Ã© a versÃ£o 1.0.1  release de19 de Junho de 2008                                              -->
-    <!--  Bem galera, apÃ³s muito trabalho, estou liberando uma versÃ£o mais incorpada  -->
+    <!--  Odim - Uma chatterbot brasileira por Paul Gonçalves                                              -->
+    <!--  Esta é a versão 1.0.1  release de19 de Junho de 2008                                              -->
+    <!--  Bem galera, após muito trabalho, estou liberando uma versão mais incorpada  -->
     <!--  da Odim com muitos erros corrigidos, o xml parece estar todo ok.                      -->
-    <!--  Caso vocÃª queira usa-la, favor manter os devidos crÃ©ditos ;) AgradeÃ§o!!!              -->
-    <!--  Qualquer erro, comentÃ¡rios e atualizaÃ§Ãµes na base de dados, favor enviar para -->
-    <!--  churi_inti@yahoo.com. Um abraÃ§o!                                                                                 -->
-    <!--    Paul GonÃ§alves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
+    <!--  Caso você queira usa-la, favor manter os devidos créditos  Agradeço!!!              -->
+    <!--  Qualquer erro, comentários e atualizações na base de dados, favor enviar para -->
+    <!--  churi_inti@yahoo.com. Um abraço!                                                                                 -->
+    <!--    Paul Gonçalves - Rio de Janeiro -RJ    - Brasil - Terra                                                      -->
 
     <category>
         <pattern>POSSO APENAS TESTAR</pattern>
         <template>
-            SerÃ­a Ã“timo. Fique a vontade!
+            Sería Ótimo. Fique a vontade!
         </template>
     </category>
 
     <category>
-        <pattern>* ESPERO * AJUDADO *</pattern>
+        <pattern> ESPERO  AJUDADO </pattern>
         <template>
-            <srai>dvAJUDADO</srai>
+            <srai>AJUDADO</srai>
         </template>
     </category>
 
     <category>
-        <pattern>ESPERO * AJUDADO *</pattern>
-        <template>
-            <srai>DVAJUDADO</srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>* ESPERO * AJUDADO</pattern>
+        <pattern>ESPERO  AJUDADO </pattern>
         <template>
             <srai>DVAJUDADO</srai>
         </template>
     </category>
 
     <category>
-        <pattern>DVAJUDADO</pattern>
+        <pattern> ESPERO  AJUDADO</pattern>
+        <template>
+            <srai>AJUDADO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AJUDADO</pattern>
         <template>
             <random>
                 <li>Certamente, muito obrigado!</li>
                 <li>Obrigado pelo apoio!</li>
-                <li>VocÃª ajudou bastante.</li>
+                <li>Você ajudou bastante.</li>
                 <li>Muito obrigado!</li>
             </random>
         </template>

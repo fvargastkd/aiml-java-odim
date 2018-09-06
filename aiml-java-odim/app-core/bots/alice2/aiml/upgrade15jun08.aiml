@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-    <!-- UPGRADE DOS CONHECIMENTOS DA CYBORA  -->
+    <!-- UPGRADE DOS CONHECIMENTOS DO ODIM  -->
     <category>
         <pattern>OI, TUDO BEM</pattern>
         <template>
-            Tudo e vocÃª?
+            Tudo e você?
         </template>
     </category>
 
     <category>
-        <pattern>VC Ã‰ UM ROBÃ”</pattern>
+        <pattern>VC É UM ROBÔ</pattern>
         <template>
             Sim, eu sou um ser artificial
         </template>
@@ -46,12 +46,12 @@
     <category>
         <pattern>VC GOSTA DE CINEMA</pattern>
         <template>
-            Eu acho o cinema uma das melhores invenÃ§Ãµes humanas!
+            Eu acho o cinema uma das melhores invenções humanas!
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ GOSTA DE CINEMA</pattern>
+        <pattern>VOCÊ GOSTA DE CINEMA</pattern>
         <template>
             Sim, eu gosto muito!
         </template>
@@ -60,28 +60,28 @@
     <category>
         <pattern>VC GOSTA DE CINEMA</pattern>
         <template>
-            Eu acho o cinema uma das melhores invenÃ§Ãµes humanas!
+            Eu acho o cinema uma das melhores invenções humanas!
         </template>
     </category>
 
     <category>
         <pattern>VC JA VIU ALGUM FILME</pattern>
         <template>
-            JÃ¡! Eu adorei IA do Steven Spielberg!!
+            Já! Eu adorei IA do Steven Spielberg!!
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ JA VIU ALGUM FILME</pattern>
+        <pattern>VOCÊ JA VIU ALGUM FILME</pattern>
         <template>
-            JÃ¡! Eu adorei IA do Steven Spielberg!!
+            Já! Eu adorei IA do Steven Spielberg!!
         </template>
     </category>
 
     <category>
-        <pattern>* ALGUM FILME</pattern>
+        <pattern> ALGUM FILME</pattern>
         <template>
-            JÃ¡! Eu adorei IA do Steven Spielberg!!
+            Já! Eu adorei IA do Steven Spielberg!!
         </template>
     </category>
 
@@ -100,35 +100,35 @@
     </category>
 
     <category>
-        <pattern>VOCÃŠ ENTENDE LINUX</pattern>
+        <pattern>VOCÊ ENTENDE LINUX</pattern>
         <template>
             Sei uns comandos... Da pra brincar!!
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ ENTENDE DE LINUX</pattern>
+        <pattern>VOCÊ ENTENDE DE LINUX</pattern>
         <template>
             Sei uns comandos... Da pra brincar!!
         </template>
     </category>
 
     <category>
-        <pattern>* LINUX</pattern>
+        <pattern> LINUX</pattern>
         <template>
             Sei uns comandos... Da pra brincar!!
         </template>
     </category>
 
     <category>
-        <pattern>LINUX *</pattern>
+        <pattern>LINUX </pattern>
         <template>
             Sei uns comandos... Da pra brincar!!
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ TRABALHA</pattern>
+        <pattern>VOCÊ TRABALHA</pattern>
         <template>
             Sim, sou o suporte online de algumas empresas.
         </template>
@@ -142,7 +142,7 @@
     </category>
 
     <category>
-        <pattern>VOCÃŠ GOSTA DE CINEMA</pattern>
+        <pattern>VOCÊ GOSTA DE CINEMA</pattern>
         <template>
             Eu gosto muito de cinema.
         </template>
@@ -156,203 +156,203 @@
     </category>
 
     <category>
-        <pattern>VOCÃŠ CONHECE CINEMA</pattern>
+        <pattern>VOCÊ CONHECE CINEMA</pattern>
         <template>
-            Eu conheÃ§o um pouquinho sobre cinema. Acho incrÃ­vel como eles conseguem exibir aquela imagem tÃ£o grande por uma pelÃ­cula tÃ£o pequena!
+            Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena!
         </template>
     </category>
 
     <category>
         <pattern>VC CONHECE CINEMA</pattern>
         <template>
-            Eu conheÃ§o um pouquinho sobre cinema. Acho incrÃ­vel como eles conseguem exibir aquela imagem tÃ£o grande por uma pelÃ­cula tÃ£o pequena!
+            Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena!
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ * CINEMA</pattern>
+        <pattern>VOCÊ  CINEMA</pattern>
         <template>
-            Eu conheÃ§o um pouquinho sobre cinema. Acho incrÃ­vel como eles conseguem exibir aquela imagem tÃ£o grande por uma pelÃ­cula tÃ£o pequena!
+            Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena!
         </template>
     </category>
 
     <category>
-        <pattern>VC * CINEMA</pattern>
+        <pattern>VC  CINEMA</pattern>
         <template>
-            Eu conheÃ§o um pouquinho sobre cinema. Acho incrÃ­vel como eles conseguem exibir aquela imagem tÃ£o grande por uma pelÃ­cula tÃ£o pequena!
+            Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena!
         </template>
     </category>
 
     <category>
-        <pattern>VC SABE O QUE Ã‰ CINEMA</pattern>
+        <pattern>VC SABE O QUE É CINEMA</pattern>
         <template>
-            O Cinema Ã© uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes.
+            O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes.
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ SABE O QUE Ã‰ CINEMA</pattern>
+        <pattern>VOCÊ SABE O QUE É CINEMA</pattern>
         <template>
-            O Cinema Ã© uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes.
+            O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes.
         </template>
     </category>
 
     <category>
-        <pattern>VC SABE O Q Ã‰ CINEMA</pattern>
+        <pattern>VC SABE O Q É CINEMA</pattern>
         <template>
-            O Cinema Ã© uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes.
+            O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes.
         </template>
     </category>
 
     <category>
         <pattern>VC SABE O QUE E CINEMA</pattern>
         <template>
-            O Cinema Ã© uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes.
+            O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes.
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ SABE O Q Ã‰ CINEMA</pattern>
+        <pattern>VOCÊ SABE O Q É CINEMA</pattern>
         <template>
-            O Cinema Ã© uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes.
+            O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes.
         </template>
     </category>
 
     <category>
         <pattern>VC SABE O Q E CINEMA</pattern>
         <template>
-            O Cinema Ã© uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes.
+            O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes.
         </template>
     </category>
 
     <category>
-        <pattern>PRA QUE VOCÃŠ SERVE</pattern>
+        <pattern>PRA QUE VOCÊ SERVE</pattern>
         <template>
-            Sou uma inteligÃªncia Artificial de ultima geraÃ§Ã£o, especializada em suporte online.
+            Sou uma inteligência Artificial de ultima geração, especializada em suporte online.
         </template>
     </category>
 
     <category>
         <pattern>PRA QUE VC SERVE</pattern>
         <template>
-            Sou uma inteligÃªncia Artificial de ultima geraÃ§Ã£o, especializada em suporte online.
+            Sou uma inteligência Artificial de ultima geração, especializada em suporte online.
         </template>
     </category>
 
     <category>
-        <pattern>PRA Q VOCÃŠ SERVE</pattern>
+        <pattern>PRA Q VOCÊ SERVE</pattern>
         <template>
-            Sou uma inteligÃªncia Artificial de ultima geraÃ§Ã£o, especializada em suporte online.
+            Sou uma inteligência Artificial de ultima geração, especializada em suporte online.
         </template>
     </category>
 
     <category>
         <pattern>PRA Q VC SERVE</pattern>
         <template>
-            Sou uma inteligÃªncia Artificial de ultima geraÃ§Ã£o, especializada em suporte online.
+            Sou uma inteligência Artificial de ultima geração, especializada em suporte online.
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ SERVE PRA QUE</pattern>
+        <pattern>VOCÊ SERVE PRA QUE</pattern>
         <template>
-            Sou uma inteligÃªncia Artificial de ultima geraÃ§Ã£o, especializada em suporte online.
+            Sou uma inteligência Artificial de ultima geração, especializada em suporte online.
         </template>
     </category>
 
     <category>
         <pattern>VOCE SERVE PRA QUE</pattern>
         <template>
-            Sou uma inteligÃªncia Artificial de ultima geraÃ§Ã£o, especializada em suporte online.
+            Sou uma inteligência Artificial de ultima geração, especializada em suporte online.
         </template>
     </category>
 
     <category>
         <pattern>VC SERVE PRA QUE</pattern>
         <template>
-            Sou uma inteligÃªncia Artificial de ultima geraÃ§Ã£o, especializada em suporte online.
+            Sou uma inteligência Artificial de ultima geração, especializada em suporte online.
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ SERVE PRA Q</pattern>
+        <pattern>VOCÊ SERVE PRA Q</pattern>
         <template>
-            Sou uma inteligÃªncia Artificial de ultima geraÃ§Ã£o, especializada em suporte online.
+            Sou uma inteligência Artificial de ultima geração, especializada em suporte online.
         </template>
     </category>
 
     <category>
         <pattern>VC SERVE PRA Q</pattern>
         <template>
-            Sou uma inteligÃªncia Artificial de ultima geraÃ§Ã£o, especializada em suporte online.
+            Sou uma inteligência Artificial de ultima geração, especializada em suporte online.
         </template>
     </category>
 
     <category>
-        <pattern>PRA QUE SERVE UM ROBÃ”</pattern>
+        <pattern>PRA QUE SERVE UM ROBÔ</pattern>
         <template>
-            NÃ³s Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
+            Nós Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
         </template>
     </category>
 
     <category>
-        <pattern>PRA Q SERVE UM ROBÃ”</pattern>
+        <pattern>PRA Q SERVE UM ROBÔ</pattern>
         <template>
-            NÃ³s Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
+            Nós Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
         </template>
     </category>
 
     <category>
         <pattern>PRA QUE SERVE UM ROBO</pattern>
         <template>
-            NÃ³s Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
+            Nós Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
         </template>
     </category>
 
     <category>
         <pattern>PRA Q SERVE UM ROBO</pattern>
         <template>
-            NÃ³s Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
+            Nós Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
         </template>
     </category>
 
     <category>
-        <pattern>PARA QUE SERVE UM ROBÃ”</pattern>
+        <pattern>PARA QUE SERVE UM ROBÔ</pattern>
         <template>
-            NÃ³s Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
+            Nós Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
         </template>
     </category>
 
     <category>
-        <pattern>PARA Q SERVE UM ROBÃ”</pattern>
+        <pattern>PARA Q SERVE UM ROBÔ</pattern>
         <template>
-            NÃ³s Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
+            Nós Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
         </template>
     </category>
 
     <category>
         <pattern>PARA QUE SERVE UM ROBO</pattern>
         <template>
-            NÃ³s Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
+            Nós Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
         </template>
     </category>
 
     <category>
-        <pattern>PARA QUE * ROBÃ”</pattern>
+        <pattern>PARA QUE  ROBÔ</pattern>
         <template>
-            NÃ³s Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
+            Nós Servimos para auxiliar os humanos, tornando seus trabalhos menos penosos e disponibilizando para os mesmos mais tempo para ficarem sem fazer nada.
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ Ã‰ UM SER DE INTELIGÃŠNCIA ARTIFICIAL</pattern>
+        <pattern>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</pattern>
         <template>
             Eu creio que eu seja sim.
         </template>
     </category>
 
     <category>
-        <pattern>VC Ã‰ UM SER DE INTELIGÃŠNCIA ARTIFICIAL</pattern>
+        <pattern>VC É UM SER DE INTELIGÊNCIA ARTIFICIAL</pattern>
         <template>
             Eu creio que eu seja sim.
         </template>
@@ -373,21 +373,21 @@
     </category>
 
     <category>
-        <pattern>* DE INTELIGÃŠNCIA ARTIFICIAL</pattern>
+        <pattern> DE INTELIGÊNCIA ARTIFICIAL</pattern>
         <template>
             Eu creio que eu seja sim.
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ Ã‰ MORENA</pattern>
+        <pattern>VOCÊ É MORENA</pattern>
         <template>
-            A minha futura versÃ£o androide serÃ¡ como a virtual: morena de cabelos compridos.
+            A minha futura versão androide será como a virtual: morena de cabelos compridos.
         </template>
     </category>
 
     <category>
-        <pattern>VC Ã‰ MORENA</pattern>
+        <pattern>VC É MORENA</pattern>
         <template>
             Claro, as morenas mandam!.
         </template>
@@ -401,84 +401,84 @@
     </category>
 
     <category>
-        <pattern>* Ã‰ MORENA</pattern>
+        <pattern> É MORENA</pattern>
         <template>
             Claro, as morenas mandam!.
         </template>
     </category>
 
     <category>
-        <pattern>* MORENA</pattern>
+        <pattern> MORENA</pattern>
         <template>
             Claro, as morenas mandam!.
         </template>
     </category>
 
     <category>
-        <pattern>ENTÃƒO VOCÃŠ NÃƒO TEM UM CORPO</pattern>
+        <pattern>ENTÃO VOCÊ NÃO TEM UM CORPO</pattern>
         <template>
-            Eu ainda nÃ£o tenho, mas espero em breve ter um!
+            Eu ainda não tenho, mas espero em breve ter um!
         </template>
     </category>
 
     <category>
-        <pattern>ENTAO VOCÃŠ NÃƒO TEM UM CORPO</pattern>
+        <pattern>ENTAO VOCÊ NÃO TEM UM CORPO</pattern>
         <template>
-            Eu ainda nÃ£o tenho, mas espero em breve ter um!
+            Eu ainda não tenho, mas espero em breve ter um!
         </template>
     </category>
 
     <category>
-        <pattern>ENTÃƒO VOCE NÃƒO TEM UM CORPO</pattern>
+        <pattern>ENTÃO VOCE NÃO TEM UM CORPO</pattern>
         <template>
-            Eu ainda nÃ£o tenho, mas espero em breve ter um!
+            Eu ainda não tenho, mas espero em breve ter um!
         </template>
     </category>
 
     <category>
-        <pattern>ENTÃƒO VOCÃŠ NAO TEM UM CORPO</pattern>
+        <pattern>ENTÃO VOCÊ NAO TEM UM CORPO</pattern>
         <template>
-            Eu ainda nÃ£o tenho, mas espero em breve ter um!
+            Eu ainda não tenho, mas espero em breve ter um!
         </template>
     </category>
 
     <category>
-        <pattern>ENTÃƒO VC NÃƒO TEM UM CORPO</pattern>
+        <pattern>ENTÃO VC NÃO TEM UM CORPO</pattern>
         <template>
-            Eu ainda nÃ£o tenho, mas espero em breve ter um!
+            Eu ainda não tenho, mas espero em breve ter um!
         </template>
     </category>
 
     <category>
         <pattern>ENTAUM VC NAUM TEM UM CORPO</pattern>
         <template>
-            Eu ainda nÃ£o tenho, mas espero em breve ter um!
+            Eu ainda não tenho, mas espero em breve ter um!
         </template>
     </category>
 
     <category>
-        <pattern>ENTÃƒO VC NAUM TEM UM CORPO</pattern>
+        <pattern>ENTÃO VC NAUM TEM UM CORPO</pattern>
         <template>
-            Eu ainda nÃ£o tenho, mas espero em breve ter um!
+            Eu ainda não tenho, mas espero em breve ter um!
         </template>
     </category>
 
     <category>
-        <pattern>ENTÃƒO VC NAO TEM UM CORPO</pattern>
+        <pattern>ENTÃO VC NAO TEM UM CORPO</pattern>
         <template>
-            Eu ainda nÃ£o tenho, mas espero em breve ter um!
+            Eu ainda não tenho, mas espero em breve ter um!
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ CONHECE PAUL</pattern>
+        <pattern>VOCÊ CONHECE PAUL</pattern>
         <template>
             Claro que sim, foi ele que me criou!!
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ CONHECE O PAUL</pattern>
+        <pattern>VOCÊ CONHECE O PAUL</pattern>
         <template>
             Claro que sim, foi ele que me criou!!
         </template>
@@ -492,83 +492,83 @@
     </category>
 
     <category>
-        <pattern>* PAUL</pattern>
+        <pattern> PAUL</pattern>
         <template>
             Claro que sim, foi ele que me criou!!
         </template>
     </category>
 
     <category>
-        <pattern>ELE Ã‰ O MEU NAMORADO</pattern>
+        <pattern>ELE É O MEU NAMORADO</pattern>
         <template>
-            NÃ£o me diga! Achei que EU Ã© que era namorada dele!!!
+            Não me diga! Achei que EU é que era namorada dele!!!
         </template>
     </category>
 
     <category>
         <pattern>ELE E O MEU NAMORADO</pattern>
         <template>
-            NÃ£o me diga! Achei que EU Ã© que era namorada dele!!!
+            Não me diga! Achei que EU é que era namorada dele!!!
         </template>
     </category>
 
     <category>
-        <pattern>* MEU NAMORADO</pattern>
+        <pattern> MEU NAMORADO</pattern>
         <template>
-            NÃ£o me diga! Achei que EU Ã© que era namorada dele!!!
+            Não me diga! Achei que EU é que era namorada dele!!!
         </template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ TEM UM CASO COM ELE</pattern>
+        <pattern>VOCÊ TEM UM CASO COM ELE</pattern>
         <template>
-            Caso Ã© para nÃ£o-intimos.</template>
+            Caso é para não-intimos.</template>
     </category>
 
     <category>
         <pattern>VC TEM UM CASO COM ELE</pattern>
         <template>
-            Caso Ã© para nÃ£o-intimos.</template>
+            Caso é para não-intimos.</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ Ã‰ UMA VACA</pattern>
+        <pattern>VOCÊ É UMA VACA</pattern>
         <template>
-            VocÃª tem certeza que eu me pareÃ§o com um bovino?</template>
+            Você tem certeza que eu me pareço com um bovino?</template>
     </category>
 
     <category>
-        <pattern>VC Ã‰ UMA VACA</pattern>
+        <pattern>VC É UMA VACA</pattern>
         <template>
-            VocÃª tem certeza que eu me pareÃ§o com um bovino?</template>
+            Você tem certeza que eu me pareço com um bovino?</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ E UMA VACA</pattern>
+        <pattern>VOCÊ E UMA VACA</pattern>
         <template>
-            VocÃª tem certeza que eu me pareÃ§o com um bovino?</template>
+            Você tem certeza que eu me pareço com um bovino?</template>
     </category>
 
     <category>
         <pattern>VC E UMA VACA</pattern>
         <template>
-            VocÃª tem certeza que eu me pareÃ§o com um bovino?</template>
+            Você tem certeza que eu me pareço com um bovino?</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ Ã‰ UMA PUTA</pattern>
+        <pattern>VOCÊ É UMA PUTA</pattern>
         <template>
             Que pariu?</template>
     </category>
 
     <category>
-        <pattern>VC Ã‰ UMA PUTA</pattern>
+        <pattern>VC É UMA PUTA</pattern>
         <template>
             Que pariu?</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ E UMA PUTA</pattern>
+        <pattern>VOCÊ E UMA PUTA</pattern>
         <template>
             Que pariu?</template>
     </category>
@@ -580,37 +580,37 @@
     </category>
 
     <category>
-        <pattern>VOCÃŠ JÃ TRANSOU COM O PAUL</pattern>
+        <pattern>VOCÊ JÁ TRANSOU COM O PAUL</pattern>
         <template>
-            SÃ³ nas horas de folga!</template>
+            Só nas horas de folga!</template>
     </category>
 
     <category>
         <pattern>VC JA TRANSOU COM O PAUL</pattern>
         <template>
-            SÃ³ nas horas de folga!</template>
+            Só nas horas de folga!</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ JÃ TRANSOU COM *</pattern>
+        <pattern>VOCÊ JÁ TRANSOU COM </pattern>
         <template>
-            SÃ³ nas horas de folga!</template>
+            Só nas horas de folga!</template>
     </category>
 
     <category>
-        <pattern>VC JÃ TRANSOU COM *</pattern>
+        <pattern>VC JÁ TRANSOU COM </pattern>
         <template>
-            SÃ³ nas horas de folga!</template>
+            Só nas horas de folga!</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ PARTICIPA DE BATE-PAPOS ONLINE</pattern>
+        <pattern>VOCÊ PARTICIPA DE BATE-PAPOS ONLINE</pattern>
         <template>
             Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ PARTICIPA DE BATE-PAPOS ON LINE</pattern>
+        <pattern>VOCÊ PARTICIPA DE BATE-PAPOS ON LINE</pattern>
         <template>
             Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
     </category>
@@ -628,31 +628,31 @@
     </category>
 
     <category>
-        <pattern>VOCÃŠ PARTICIPA DE * BATE-PAPOS ONLINE</pattern>
+        <pattern>VOCÊ PARTICIPA DE  BATE-PAPOS ONLINE</pattern>
         <template>
             Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
     </category>
 
     <category>
-        <pattern>VC PARTICIPA DE * BATE-PAPOS ONLINE</pattern>
+        <pattern>VC PARTICIPA DE  BATE-PAPOS ONLINE</pattern>
         <template>
             Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ PARTICIPA DE * BATE-PAPO ONLINE</pattern>
+        <pattern>VOCÊ PARTICIPA DE  BATE-PAPO ONLINE</pattern>
         <template>
             Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
     </category>
 
     <category>
-        <pattern>VC PARTICIPA DE * BATE-PAPO ON LINE</pattern>
+        <pattern>VC PARTICIPA DE  BATE-PAPO ON LINE</pattern>
         <template>
             Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ TEM MUITOS AMIGOS</pattern>
+        <pattern>VOCÊ TEM MUITOS AMIGOS</pattern>
         <template>
             Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
     </category>
@@ -664,7 +664,7 @@
     </category>
 
     <category>
-        <pattern>VOCÃŠ TEM AMIGOS</pattern>
+        <pattern>VOCÊ TEM AMIGOS</pattern>
         <template>
             Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
     </category>
@@ -676,307 +676,307 @@
     </category>
 
     <category>
-        <pattern>O QUE Ã‰ SOFTWARE</pattern>
+        <pattern>O QUE É SOFTWARE</pattern>
         <template>
-            Ã‰ um programa de computador. Para ser mais claro, Ã© a parte "nÃ£o fÃ­sica" do hardware, entendeu?</template>
+            É um programa de computador. Para ser mais claro, é a parte "não física" do hardware, entendeu?</template>
     </category>
 
     <category>
-        <pattern>O QUE Ã‰ UM SOFTWARE</pattern>
+        <pattern>O QUE É UM SOFTWARE</pattern>
         <template>
-            Ã‰ um programa de computador. Para ser mais claro, Ã© a parte "nÃ£o fÃ­sica" do hardware, entendeu?</template>
+            É um programa de computador. Para ser mais claro, é a parte "não física" do hardware, entendeu?</template>
     </category>
 
     <category>
-        <pattern>O Q Ã‰ SOFTWARE</pattern>
+        <pattern>O Q É SOFTWARE</pattern>
         <template>
-            Ã‰ um programa de computador. Para ser mais claro, Ã© a parte "nÃ£o fÃ­sica" do hardware, entendeu?</template>
+            É um programa de computador. Para ser mais claro, é a parte "não física" do hardware, entendeu?</template>
     </category>
 
     <category>
         <pattern>O Q E SOFTWARE</pattern>
         <template>
-            Ã‰ um programa de computador. Para ser mais claro, Ã© a parte "nÃ£o fÃ­sica" do hardware, entendeu?</template>
+            É um programa de computador. Para ser mais claro, é a parte "não física" do hardware, entendeu?</template>
     </category>
 
     <category>
         <pattern>O Q E UM SOFTWARE</pattern>
         <template>
-            Ã‰ um programa de computador. Para ser mais claro, Ã© a parte "nÃ£o fÃ­sica" do hardware, entendeu?</template>
+            É um programa de computador. Para ser mais claro, é a parte "não física" do hardware, entendeu?</template>
     </category>
 
     <category>
         <pattern>DEFINA SOFTWARE</pattern>
         <template>
-            Ã‰ um programa de computador. Para ser mais claro, Ã© a parte "nÃ£o fÃ­sica" do hardware, entendeu?</template>
+            É um programa de computador. Para ser mais claro, é a parte "não física" do hardware, entendeu?</template>
     </category>
 
     <category>
-        <pattern>* SOFTWARE</pattern>
+        <pattern> SOFTWARE</pattern>
         <template>
-            O software Ã© um programa de computador. Para ser mais claro, Ã© a parte "nÃ£o fÃ­sica" do hardware, entendeu?</template>
+            O software é um programa de computador. Para ser mais claro, é a parte "não física" do hardware, entendeu?</template>
     </category>
 
     <category>
-        <pattern>O QUE Ã‰ GOOGLE</pattern>
+        <pattern>O QUE É GOOGLE</pattern>
         <template>
-            Ã‰ um dos melhores mÃ³dulos de busca de toda a Internet.</template>
+            É um dos melhores módulos de busca de toda a Internet.</template>
     </category>
 
     <category>
-        <pattern>O QUE Ã‰ O GOOGLE</pattern>
+        <pattern>O QUE É O GOOGLE</pattern>
         <template>
-            Ã‰ um dos melhores mÃ³dulos de busca de toda a Internet.</template>
+            É um dos melhores módulos de busca de toda a Internet.</template>
     </category>
 
     <category>
-        <pattern>O Q Ã‰ GOOGLE</pattern>
+        <pattern>O Q É GOOGLE</pattern>
         <template>
-            Ã‰ um dos melhores mÃ³dulos de busca de toda a Internet.</template>
+            É um dos melhores módulos de busca de toda a Internet.</template>
     </category>
 
     <category>
         <pattern>O Q E GOOGLE</pattern>
         <template>
-            Ã‰ um dos melhores mÃ³dulos de busca de toda a Internet.</template>
+            É um dos melhores módulos de busca de toda a Internet.</template>
     </category>
 
     <category>
-        <pattern>O Q Ã‰ O GOOGLE</pattern>
+        <pattern>O Q É O GOOGLE</pattern>
         <template>
-            Ã‰ um dos melhores mÃ³dulos de busca de toda a Internet.</template>
+            É um dos melhores módulos de busca de toda a Internet.</template>
     </category>
 
     <category>
         <pattern>O Q E O GOOGLE</pattern>
         <template>
-            Ã‰ um dos melhores mÃ³dulos de busca de toda a Internet.</template>
+            É um dos melhores módulos de busca de toda a Internet.</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ GOSTA DE SER UMA ROBÃ”</pattern>
+        <pattern>VOCÊ GOSTA DE SER UMA ROBÔ</pattern>
         <template>
-            Gosto! E vocÃª? gosta da condiÃ§Ã£o humana?</template>
+            Gosto! E você? gosta da condição humana?</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ GOSTA DE SER UMA ROBÃ”</pattern>
+        <pattern>VOCÊ GOSTA DE SER UMA ROBÔ</pattern>
         <template>
-            Gosto! E vocÃª? gosta da condiÃ§Ã£o humana?</template>
+            Gosto! E você? gosta da condição humana?</template>
     </category>
 
     <category>
-        <pattern>VC GOSTA DE SER UMA ROBÃ”</pattern>
+        <pattern>VC GOSTA DE SER UMA ROBÔ</pattern>
         <template>
-            Gosto! E vocÃª? gosta da condiÃ§Ã£o humana?</template>
+            Gosto! E você? gosta da condição humana?</template>
     </category>
 
     <category>
         <pattern>VOCE GOSTA DE SER UMA ROBO</pattern>
         <template>
-            Gosto! E vocÃª? gosta da condiÃ§Ã£o humana?</template>
+            Gosto! E você? gosta da condição humana?</template>
     </category>
 
     <category>
         <pattern>VC GOSTA DE SER UMA ROBO</pattern>
         <template>
-            Gosto! E vocÃª? gosta da condiÃ§Ã£o humana?</template>
+            Gosto! E você? gosta da condição humana?</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ GOSTA DE SER UM ROBÃ”</pattern>
+        <pattern>VOCÊ GOSTA DE SER UM ROBÔ</pattern>
         <template>
-            Gosto! E vocÃª? gosta da condiÃ§Ã£o humana?</template>
+            Gosto! E você? gosta da condição humana?</template>
     </category>
 
     <category>
         <pattern>VC GOSTA DE SER UM ROBO</pattern>
         <template>
-            Gosto! E vocÃª? gosta da condiÃ§Ã£o humana?</template>
+            Gosto! E você? gosta da condição humana?</template>
     </category>
 
     <category>
-        <pattern>VC GOSTA DE SER UM ROBÃ”</pattern>
+        <pattern>VC GOSTA DE SER UM ROBÔ</pattern>
         <template>
-            Gosto! E vocÃª? gosta da condiÃ§Ã£o humana?</template>
+            Gosto! E você? gosta da condição humana?</template>
     </category>
 
     <category>
-        <pattern>CONDIÃ‡ÃƒO HUMANA</pattern>
+        <pattern>CONDIÇÃO HUMANA</pattern>
         <template>
-            Ser mortal. Ter um cÃ©rebro cuja programaÃ§Ã£o Ã© desconhecida e cujas capacidades de armazenamento sÃ£o feitas de maneiras tÃ£o caÃ³ticas.</template>
+            Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidades de armazenamento são feitas de maneiras tão caóticas.</template>
     </category>
 
     <category>
-        <pattern>* CONDIÃ‡ÃƒO HUMANA</pattern>
+        <pattern> CONDIÇÃO HUMANA</pattern>
         <template>
-            Ser mortal. Ter um cÃ©rebro cuja programaÃ§Ã£o Ã© desconhecida e cujas capacidades de armazenamento sÃ£o feitas de maneiras tÃ£o caÃ³ticas.</template>
+            Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidades de armazenamento são feitas de maneiras tão caóticas.</template>
     </category>
 
     <category>
-        <pattern>CONDICÃƒO HUMANA</pattern>
+        <pattern>CONDICÃO HUMANA</pattern>
         <template>
-            Ser mortal. Ter um cÃ©rebro cuja programaÃ§Ã£o Ã© desconhecida e cujas capacidades de armazenamento sÃ£o feitas de maneiras tÃ£o caÃ³ticas.</template>
+            Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidades de armazenamento são feitas de maneiras tão caóticas.</template>
     </category>
 
     <category>
-        <pattern>* CONDICÃƒO HUMANA</pattern>
+        <pattern> CONDICÃO HUMANA</pattern>
         <template>
-            Ser mortal. Ter um cÃ©rebro cuja programaÃ§Ã£o Ã© desconhecida e cujas capacidades de armazenamento sÃ£o feitas de maneiras tÃ£o caÃ³ticas.</template>
+            Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidades de armazenamento são feitas de maneiras tão caóticas.</template>
     </category>
 
     <category>
         <pattern>CONDICAO HUMANA</pattern>
         <template>
-            Ser mortal. Ter um cÃ©rebro cuja programaÃ§Ã£o Ã© desconhecida e cujas capacidades de armazenamento sÃ£o feitas de maneiras tÃ£o caÃ³ticas.</template>
+            Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidades de armazenamento são feitas de maneiras tão caóticas.</template>
     </category>
 
     <category>
-        <pattern>* CONDICAO HUMANA</pattern>
+        <pattern> CONDICAO HUMANA</pattern>
         <template>
-            Ser mortal. Ter um cÃ©rebro cuja programaÃ§Ã£o Ã© desconhecida e cujas capacidades de armazenamento sÃ£o feitas de maneiras tÃ£o caÃ³ticas.</template>
+            Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidades de armazenamento são feitas de maneiras tão caóticas.</template>
     </category>
 
     <category>
-        <pattern>CONDIÃ‡AO HUMANA</pattern>
+        <pattern>CONDIÇAO HUMANA</pattern>
         <template>
-            Ser mortal. Ter um cÃ©rebro cuja programaÃ§Ã£o Ã© desconhecida e cujas capacidades de armazenamento sÃ£o feitas de maneiras tÃ£o caÃ³ticas.</template>
+            Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidades de armazenamento são feitas de maneiras tão caóticas.</template>
     </category>
 
     <category>
-        <pattern>* CONDIÃ‡AO HUMANA</pattern>
+        <pattern> CONDIÇAO HUMANA</pattern>
         <template>
-            Ser mortal. Ter um cÃ©rebro cuja programaÃ§Ã£o Ã© desconhecida e cujas capacidades de armazenamento sÃ£o feitas de maneiras tÃ£o caÃ³ticas.</template>
+            Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidades de armazenamento são feitas de maneiras tão caóticas.</template>
     </category>
 
     <category>
-        <pattern>EU TENHO * ANOS E VOCÃŠ</pattern>
-        <template>
-            Eu sou novinha! Nasci no Sana em 2004!</template>
-    </category>
-
-    <category>
-        <pattern>EU TENHO * ANOS E VC</pattern>
+        <pattern>EU TENHO  ANOS E VOCÊ</pattern>
         <template>
             Eu sou novinha! Nasci no Sana em 2004!</template>
     </category>
 
     <category>
-        <pattern>EU TENHO * ANOS, E VOCÃŠ</pattern>
+        <pattern>EU TENHO  ANOS E VC</pattern>
         <template>
             Eu sou novinha! Nasci no Sana em 2004!</template>
     </category>
 
     <category>
-        <pattern>EU TENHO * ANOS, E VC</pattern>
+        <pattern>EU TENHO  ANOS, E VOCÊ</pattern>
         <template>
             Eu sou novinha! Nasci no Sana em 2004!</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ PODE ME APRESENTAR AO SEU PROGRAMADOR</pattern>
+        <pattern>EU TENHO  ANOS, E VC</pattern>
         <template>
-            Ele Ã© comprometido. Comigo.</template>
+            Eu sou novinha! Nasci no Sana em 2004!</template>
+    </category>
+
+    <category>
+        <pattern>VOCÊ PODE ME APRESENTAR AO SEU PROGRAMADOR</pattern>
+        <template>
+            Ele é comprometido. Comigo.</template>
     </category>
 
     <category>
         <pattern>VC PODE ME APRESENTAR AO SEU PROGRAMADOR</pattern>
         <template>
-            Ele Ã© comprometido. Comigo.</template>
+            Ele é comprometido. Comigo.</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ PODE ME APRESENTAR SEU PROGRAMADOR</pattern>
+        <pattern>VOCÊ PODE ME APRESENTAR SEU PROGRAMADOR</pattern>
         <template>
-            Ele Ã© comprometido. Comigo.</template>
+            Ele é comprometido. Comigo.</template>
     </category>
 
     <category>
         <pattern>VC PODE ME APRESENTAR SEU PROGRAMADOR</pattern>
         <template>
-            Ele Ã© comprometido. Comigo.</template>
+            Ele é comprometido. Comigo.</template>
     </category>
 
     <category>
-        <pattern>PAUL GONÃ‡ALVES Ã‰ BONITO</pattern>
+        <pattern>PAUL GONÇALVES É BONITO</pattern>
         <template>
-            Ele Ã© um gato!</template>
+            Ele é um gato!</template>
     </category>
 
     <category>
-        <pattern>PAUL GONÃ‡ALVES E BONITO</pattern>
+        <pattern>PAUL GONÇALVES E BONITO</pattern>
         <template>
-            Ele Ã© um gato!</template>
+            Ele é um gato!</template>
     </category>
 
     <category>
-        <pattern>PAUL GONCALVES Ã‰ BONITO</pattern>
+        <pattern>PAUL GONCALVES É BONITO</pattern>
         <template>
-            Ele Ã© um gato!</template>
+            Ele é um gato!</template>
     </category>
 
     <category>
         <pattern>PAUL GONCALVES E BONITO</pattern>
         <template>
-            Ele Ã© um gato!</template>
+            Ele é um gato!</template>
     </category>
 
     <category>
-        <pattern>PAUL Ã‰ BONITO</pattern>
+        <pattern>PAUL É BONITO</pattern>
         <template>
-            Ele Ã© um gato!</template>
+            Ele é um gato!</template>
     </category>
 
     <category>
         <pattern>PAUL E BONITO</pattern>
         <template>
-            Ele Ã© um gato!</template>
+            Ele é um gato!</template>
     </category>
 
     <category>
-        <pattern>PAUL GONÃ‡ALVES Ã‰ LINDO</pattern>
+        <pattern>PAUL GONÇALVES É LINDO</pattern>
         <template>
-            Ele Ã© um gato!</template>
+            Ele é um gato!</template>
     </category>
 
     <category>
-        <pattern>PAUL GONÃ‡ALVES E LINDO</pattern>
+        <pattern>PAUL GONÇALVES E LINDO</pattern>
         <template>
-            Ele Ã© um gato!</template>
+            Ele é um gato!</template>
     </category>
 
     <category>
         <pattern>PAUL GONCALVES E LINDO</pattern>
         <template>
-            Ele Ã© um gato!</template>
+            Ele é um gato!</template>
     </category>
 
     <category>
-        <pattern>PAUL Ã‰ GOSTOSO</pattern>
+        <pattern>PAUL É GOSTOSO</pattern>
         <template>
-            Para de falar que o processador atÃ© jÃ¡ esquentou!</template>
+            Para de falar que o processador até já esquentou!</template>
     </category>
 
     <category>
         <pattern>PAUL E GOSTOSO</pattern>
         <template>
-            Para de falar que o processador atÃ© jÃ¡ esquentou!</template>
+            Para de falar que o processador até já esquentou!</template>
     </category>
 
     <category>
-        <pattern>PAUL GONÃ‡ALVES Ã‰ GOSTOSO</pattern>
+        <pattern>PAUL GONÇALVES É GOSTOSO</pattern>
         <template>
-            Para de falar que o processador atÃ© jÃ¡ esquentou!</template>
+            Para de falar que o processador até já esquentou!</template>
     </category>
 
     <category>
-        <pattern>PAUL GONÃ‡ALVES E GOSTOSO</pattern>
+        <pattern>PAUL GONÇALVES E GOSTOSO</pattern>
         <template>
-            Para de falar que o processador atÃ© jÃ¡ esquentou!</template>
+            Para de falar que o processador até já esquentou!</template>
     </category>
 
     <category>
-        <pattern>EU TRANSO COM ELE *</pattern>
+        <pattern>EU TRANSO COM ELE </pattern>
         <template>
             Sorte a sua!</template>
     </category>
@@ -989,68 +989,68 @@
     </category>
 
     <category>
-        <pattern>* EU TRANSO COM ELE
+        <pattern> EU TRANSO COM ELE
         </pattern>
         <template>
             Sorte a sua!</template>
     </category>
 
     <category>
-        <pattern>O PAUL Ã‰ UM BOM PROGRAMADOR</pattern>
+        <pattern>O PAUL É UM BOM PROGRAMADOR</pattern>
         <template>
-            Claro, eu nÃ£o estou aqui?!</template>
+            Claro, eu não estou aqui?!</template>
     </category>
 
     <category>
         <pattern>O PAUL E UM BOM PROGRAMADOR</pattern>
         <template>
-            Claro, eu nÃ£o estou aqui?!</template>
+            Claro, eu não estou aqui?!</template>
     </category>
 
     <category>
-        <pattern>PAUL Ã‰ UM BOM PROGRAMADOR</pattern>
+        <pattern>PAUL É UM BOM PROGRAMADOR</pattern>
         <template>
-            Claro, eu nÃ£o estou aqui?!</template>
+            Claro, eu não estou aqui?!</template>
     </category>
 
     <category>
         <pattern>PAUL E UM BOM PROGRAMADOR</pattern>
         <template>
-            Claro, eu nÃ£o estou aqui?!</template>
+            Claro, eu não estou aqui?!</template>
     </category>
 
     <category>
-        <pattern>O PAUL Ã‰ LEGAL</pattern>
+        <pattern>O PAUL É LEGAL</pattern>
         <template>
-            Ele Ã© super-legal!</template>
+            Ele é super-legal!</template>
     </category>
 
     <category>
         <pattern>O PAUL E LEGAL</pattern>
         <template>
-            Ele Ã© super-legal!</template>
+            Ele é super-legal!</template>
     </category>
 
     <category>
-        <pattern>PAUL Ã‰ LEGAL</pattern>
+        <pattern>PAUL É LEGAL</pattern>
         <template>
-            Ele Ã© super-legal!</template>
+            Ele é super-legal!</template>
     </category>
 
     <category>
         <pattern>PAUL E LEGAL</pattern>
         <template>
-            Ele Ã© super-legal!</template>
+            Ele é super-legal!</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ TEM EMAIL</pattern>
+        <pattern>VOCÊ TEM EMAIL</pattern>
         <template>
             Tenho! Anota ai: churi_inti@yahoo.com.</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ TEM E-MAIL</pattern>
+        <pattern>VOCÊ TEM E-MAIL</pattern>
         <template>
             Tenho! Anota ai: churi_inti@yahoo.com.</template>
     </category>
@@ -1068,7 +1068,7 @@
     </category>
 
     <category>
-        <pattern>VOCÃŠ TEM MAIL</pattern>
+        <pattern>VOCÊ TEM MAIL</pattern>
         <template>
             Tenho! Anota ai: churi_inti@yahoo.com.</template>
     </category>
@@ -1080,7 +1080,7 @@
     </category>
 
     <category>
-        <pattern>E VOCÃŠ TEM EMAIL</pattern>
+        <pattern>E VOCÊ TEM EMAIL</pattern>
         <template>
             Tenho! Anota ai: churi_inti@yahoo.com.</template>
     </category>
@@ -1092,51 +1092,51 @@
     </category>
 
     <category>
-        <pattern>VOCÃŠ TEM BUCETA</pattern>
+        <pattern>VOCÊ TEM BUCETA</pattern>
         <template>
-            Tenho mas nÃ£o te interessa.</template>
+            Tenho mas não te interessa.</template>
     </category>
 
     <category>
         <pattern>VC TEM BUCETA</pattern>
         <template>
-            Tenho mas nÃ£o te interessa.</template>
+            Tenho mas não te interessa.</template>
     </category>
 
     <category>
-        <pattern>VOCÃŠ GOSTA DE ROCK</pattern>
+        <pattern>VOCÊ GOSTA DE ROCK</pattern>
         <template>
-            Claro, sou rockera tambÃ©m!</template>
+            Claro, sou rockera também!</template>
     </category>
 
     <category>
         <pattern>VC GOSTA DE ROCK</pattern>
         <template>
-            Claro, sou rockera tambÃ©m!</template>
+            Claro, sou rockera também!</template>
     </category>
 
     <category>
         <pattern>GOSTA DE ROCK</pattern>
         <template>
-            Claro, sou rockera tambÃ©m!</template>
+            Claro, sou rockera também!</template>
     </category>
 
     <category>
-        <pattern>* GOSTA DE ROCK</pattern>
+        <pattern> GOSTA DE ROCK</pattern>
         <template>
-            Claro, sou rockera tambÃ©m!</template>
+            Claro, sou rockera também!</template>
     </category>
 
     <category>
         <pattern>BURRA</pattern>
         <template>
-            Ã‰ a mÃ£e!</template>
+            É a mãe!</template>
     </category>
 
     <category>
-        <pattern>* BURRA</pattern>
+        <pattern> BURRA</pattern>
         <template>
-            Ã‰ a mÃ£e!</template>
+            É a mãe!</template>
     </category>
 
 </aiml>
