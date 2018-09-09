@@ -34,6 +34,6 @@
     </scm>
 
     <modules>
-        <module>app-core</module>
+        <module>odim-core</module>
     </modules>
 </project>

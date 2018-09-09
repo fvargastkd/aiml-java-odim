@@ -10,7 +10,7 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>app-core</artifactId>
+    <artifactId>odim-core</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -54,5 +54,5 @@
             </plugin>
         </plugins>
     </build>
-    
+    <name>odim-core</name>
 </project>
